@@ -26,6 +26,9 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 
 ## Announcement ##
 * 실습 시간 배정을 위한 선호도 조사를 아래의 페이지에서 합니다.
+ + https://docs.google.com/spreadsheets/d/1EzbIugvGQr2-V16NtcbgCojUSUcok9cUATzQ0fwvelU/edit?usp=sharing
+ + 금요일 자정까지 본인의 선호를 적어주시면 일요일 자정까지 배정하겠습니다.
+ + 중간고사 이후 실습 시간을 재배정할 예정입니다. (작년의 경우 중간고사 이후 한 반으로 운영이 가능했음)
 
 ## Homework ##
 * 하기 전에 [instructions on homework](homeworks/instr-hw.md)를 읽으세요.
