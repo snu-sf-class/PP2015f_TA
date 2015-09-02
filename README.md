@@ -21,7 +21,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 ## Links ##
 
 * [Course Page](http://sf.snu.ac.kr/gil.hur/4190.210/15/)
-* [Board](https://github.com/snu-sf-class/PP2015f_TA/issues)
+* [Issues Board](https://github.com/snu-sf-class/PP2015f_TA/issues)
 * [Lab Materials](/lab)
 
 ## Announcement ##
