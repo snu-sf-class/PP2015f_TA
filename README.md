@@ -1,23 +1,22 @@
-# TA Page - 4190.210 Principles of Programming 2015 Fall @ SNU #
+# TA Page - 4190.210 프로그래밍 원리 2015 Fall @ SNU #
 
-Instructor: [Gil Hur](http://sf.snu.ac.kr/gil.hur/)
+Instructor: [허충길 교수님](http://sf.snu.ac.kr/gil.hur/)
 
-TA: [Yoonseung Kim](http://sf.snu.ac.kr/yoonseung.kim/),
-[Youngju Song](http://sf.snu.ac.kr/youngju.song/),
-[Sanghoon Park](http://sf.snu.ac.kr/sanghoon.park/)
+TA: [김윤승](http://sf.snu.ac.kr/yoonseung.kim/),
+[박상훈](http://sf.snu.ac.kr/sanghoon.park/)
     ([Software Foundations Laboratory](http://sf.snu.ac.kr/)
     / [CSE](http://cse.snu.ac.kr)
     / [Seoul National University](http://www.snu.ac.kr))
     
 TA Email: (pp2015fall at sf dot snu dot ac dot kr)
-* For questions, please use [issues](https://github.com/snu-sf-class/PP2015f_TA/issues).
-* Send mails here if you need to contact us privately, instead of TAs' personal email addresses.
+* 수업 관련 질문은 [issues](https://github.com/snu-sf-class/PP2015f_TA/issues)를 이용해주세요.
+* 이외의 개인적인 일은 조교메일을 이용해주세요.
 
 ## Times ##
 
-* Lecture: Mon 16:00-17:50 @ Bldg 301 Rm 118
-* Lab: Wed 16:00-17:50 @ Bldg 302 Rm 311-1
-* TA Office Hour: Mon, Wed 15:00-16:00 @ Bldg 301 Rm 554-1. If not eligible, please mail us.
+* 수업: Mon 16:00-17:50 @ Bldg 301 Rm 118
+* 실습: Wed 16:00-17:50 @ Bldg 302 Rm 311-1
+* 조교 Office Hour: Mon, Wed 15:00-16:00 @ Bldg 301 Rm 554-1 혹은 메일을 통한 개별약속.
 
 ## Links ##
 
@@ -26,14 +25,14 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 실습 시간 배정을 위한 선호도 조사를 아래의 페이지에서 합니다.
 
 ## Homework ##
-* Read [instructions on homework](homeworks/instr-hw.md).
-* *Important*: DO NOT CHEAT. we are experts in picking out cheaters. Unfortunately, every year some students cheat. :$
-  + Do not copy other's source code. We use an automated clone checker for all the submissions of 10 years.
-  + Do not attempt to attack TA's graders. Please..
-* *Important*: Use [Racket 6.2](http://download.racket-lang.org) and [OCaml 4.02](http://ocaml.org/docs/install.html). If you are not using these versions, your submission may not be properly graded.
-* Follow homework instructions strictly. Especially, watch your input/output formats. We will give you self graders, so grade with it before submission.
+* 하기 전에 [instructions on homework](homeworks/instr-hw.md)를 읽으세요.
+* *중요*: 치팅은 하지 마세요.
+  + 우리는 (우수한) clone detector와 지난 10년간의 코드를 가지고 있습니다.
+* *중요*: 최신 버전의 [Racket 6.2](http://download.racket-lang.org)와 [OCaml 4.02](http://ocaml.org/docs/install.html)를 사용하세요. 그렇지 않을 경우 채점이 제대로 이루어지지 않을 수도 있습니다.
+* 숙제의 지시를 엄격하게 따라주세요. 특히, 입/출력 포맷을 잘 지켜주세요. 조교가 숙제마다 자가채점기를 배포할 것입니다. 제출 전 꼭 확인해보세요.
 
 ## Reference ##
 
