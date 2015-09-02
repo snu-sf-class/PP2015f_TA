@@ -29,13 +29,16 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
  + https://docs.google.com/spreadsheets/d/1EzbIugvGQr2-V16NtcbgCojUSUcok9cUATzQ0fwvelU/edit?usp=sharing
  + 금요일 자정까지 본인의 선호를 적어주시면 일요일 자정까지 배정하겠습니다.
  + 중간고사 이후 실습 시간을 재배정할 예정입니다. (작년의 경우 중간고사 이후 한 반으로 운영이 가능했음)
+* 수업 내용 관련 질문의 경우 이 GitHub 페이지의 issues 게시판을 이용할 것입니다.
+ + GitHub에 계정이 없으신 수강생은 지금 만들어두시면 앞으로 도움이 될 것입니다. 
+ + 답변은 조교 또는 학생 누구든 참여하시기를 권장합니다.
 
 ## Homework ##
 * 하기 전에 [instructions on homework](homeworks/instr-hw.md)를 읽으세요.
 * *중요*: 치팅은 하지 마세요.
   + 우리는 (우수한) clone detector와 지난 10년간의 코드를 가지고 있습니다.
 * *중요*: 최신 버전의 [Racket 6.2](http://download.racket-lang.org)와 [OCaml 4.02](http://ocaml.org/docs/install.html)를 사용하세요. 그렇지 않을 경우 채점이 제대로 이루어지지 않을 수도 있습니다.
-* 숙제의 지시를 엄격하게 따라주세요. 특히, 입/출력 포맷을 잘 지켜주세요. 조교가 숙제마다 자가채점기를 배포할 것입니다. 제출 전 꼭 확인해보세요.
+* 숙제의 지시를 엄격하게 따라주세요. 특히, 입/출력 포맷을 잘 지켜주세요. 조교가 숙제마다 자가채점기를 배포할 것입니다. 제출 전 꼭 확인해보세요. (그렇지 않을 경우 0점입니다.)
 
 ## Reference ##
 
