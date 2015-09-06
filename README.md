@@ -10,7 +10,7 @@ TA: [김윤승](http://sf.snu.ac.kr/yoonseung.kim/),
     
 TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * 수업 관련 질문은 [issues](https://github.com/snu-sf-class/PP2015f_TA/issues)를 이용해주세요.
-* 이외의 개인적인 일은 조교메일을 이용해주세요.
+* 이외의 개인적인 일은 조교메일을 이용해주세요 - 조교 개인 메일 말고 위의 공식 조교 메일 pp2015fall을 이용해주세요!
 
 ## Times ##
 
