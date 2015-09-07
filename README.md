@@ -25,7 +25,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
-* *new* 실습반이 아래와 같이 배정되었습니다.
+* *(new!)* 실습반이 아래와 같이 배정되었습니다.
  + https://docs.google.com/spreadsheets/d/1EzbIugvGQr2-V16NtcbgCojUSUcok9cUATzQ0fwvelU/edit?usp=sharing
  + 자신의 학번이 없거나 부득이한 사유가 있어 반을 옮기고 싶으신 분은 메일로 알려주세요.
  + 중간고사 이후 실습 시간을 재배정할 예정입니다. (작년의 경우 중간고사 이후 한 반으로 운영이 가능했음)
