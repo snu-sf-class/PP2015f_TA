@@ -25,9 +25,9 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
-* 실습 시간 배정을 위한 선호도 조사를 아래의 페이지에서 합니다.
+* *new* 실습반이 아래와 같이 배정되었습니다.
  + https://docs.google.com/spreadsheets/d/1EzbIugvGQr2-V16NtcbgCojUSUcok9cUATzQ0fwvelU/edit?usp=sharing
- + 금요일 자정까지 본인의 선호를 적어주시면 일요일 자정까지 배정하겠습니다.
+ + 자신의 학번이 없거나 부득이한 사유가 있어 반을 옮기고 싶으신 분은 메일로 알려주세요.
  + 중간고사 이후 실습 시간을 재배정할 예정입니다. (작년의 경우 중간고사 이후 한 반으로 운영이 가능했음)
 * 수업 내용 관련 질문의 경우 이 GitHub 페이지의 issues 게시판을 이용할 것입니다.
  + GitHub에 계정이 없으신 수강생은 지금 만들어두시면 앞으로 도움이 될 것입니다. 
