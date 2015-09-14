@@ -238,14 +238,7 @@ if, equal?, or, and, +, -, *, /, <, quotient, remainder, ...
   (myfactorial 10))
 ```
 
-위의 예제에서, ```myfactorial``` 함수의 정의에서 ```myfactorial```를 호출하는 것을 확인할 수 있습니다. ```let```을 이용한 ```myfactorial```은 다음과 같습니다:
-```racket
-(let
-    ([myfactorial
-      (lambda (n)
-        (if (zero? n) 1 (* n (myfactorial (- n 1)))))])
-  (myfactorial 10))
-```
+위의 예제에서, ```myfactorial``` 함수의 정의에서 ```myfactorial```를 호출하는 것을 확인할 수 있습니다. ```letrec```을 ```let```으로 바꾸어보면 실행이 되지 않습니다.
 
 #### define을 이용한 재귀 ####
 ```racket
