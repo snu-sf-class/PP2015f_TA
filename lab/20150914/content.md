@@ -1,29 +1,24 @@
-# Lab Session, Principles of Programming #
+# 프로그래밍의 원리: 실습 #
 
-20140917 (Wed) 16:00-17:50
-TA [Jeehoon Kang](http://sf.snu.ac.kr/jeehoon.kang), [Yoonseung Kim](http://ropas.snu.ac.kr/~yskim)
+20150914(월) 16:00-17:00 / 17:00-18:00
 
-## Announcement ##
+TA [김윤승](http://sf.snu.ac.kr/yoonseung.kim), [박상훈](http://sf.snu.ac.kr/sanghoon.park)
 
-### Homework ###
+## 공지 ##
 
-* See [general instruction on homework](../../homeworks/instr-hw.md).
-* [HW1](http://sf.snu.ac.kr/gil.hur/4190.210/14/hws/hw1-eng.pdf) is out.
+### 실습 안내 ###
 
-### Lab Session ###
+* 실습실 컴퓨터에 개인 계정이 없으신 경우, id: pp2015로 로그인 가능합니다. 비밀번호는 실습 시간에 조교가 알려드립니다.
+* 실습 내용을 설명해드린 후에는 실습에 참여하지 않으셔도 됩니다.
+* 실습과 관련하여 모르는 내용은 언제든 질문해주시면 됩니다.
 
-* If you don't have an account, try ID `pp2014-2`.
-* You may leave anytime you want, once TA explained today's contents.
-* Questions to TAs are very encouraged.
-* However, as you will see, TAs are very answering your questions in lab session. You may have to wait for 10 minutes for a TA! For your own sake, try to ask students around you first.
+## 실습 내용 ##
 
-## Lab Material ##
+숙제 1에 필요한 기본 내용으로 구성
 
-We aim to learn concepts related to the homework 1.
+### Racket 기초 ###
 
-### Value and Expression of Racket ###
-
-#### Value ####
+#### 값 (Value) ####
 
 * Numbers
 ```racket
@@ -38,8 +33,8 @@ We aim to learn concepts related to the homework 1.
 * Symbols
 ```racket
 'hur
-'jee
 'yoon
+'hoon
 ```
 
 * Pairs
@@ -57,7 +52,7 @@ We aim to learn concepts related to the homework 1.
 (lambda (x) (+ x 1))
 ```
 
-#### Expression ####
+#### 수식 (Expression) ####
 
 ```racket
 (+ -1 2)
@@ -79,7 +74,7 @@ We aim to learn concepts related to the homework 1.
 ((lambda (f) f) (lambda (x) (+ x 1)))
 ```
 
-Other expressions:
+또 다른 수식들:
 
 ```racket
 if, equal?, or, and, +, -, *, /, <, quotient, remainder, ...
@@ -117,9 +112,9 @@ if, equal?, or, and, +, -, *, /, <, quotient, remainder, ...
 (if (< 1 2) "O" "X")
 ```
 
-#### Pairs ####
+#### 짝 (Pairs) ####
 
-Use ```cons``` to make a pair; ```car```, to get the first element; ```cdr```, to get the last one.
+```cons``` 를 이용해 짝을 만들 수 있습니다; ```car```는 짝의 앞, ```cdr```은 뒤의 원소를 가져옵니다.
 
 ```racket
 (car (cons 1 (cons 2 "three")))
@@ -129,9 +124,9 @@ Use ```cons``` to make a pair; ```car```, to get the first element; ```cdr```, t
 (cdr (cons 1 (cons 2 "three")))
 ```
 
-#### Lists ####
+#### 리스트 (Lists) ####
 
-Lists are favorable data structure in Racket. In fact, lists are pairs constructed in a regular way.
+리스트는 Racket에서 제공하는 유용한 자료구조로, 짝을 이용해 만들 수 있습니다.
 
 ```racket
 (cons 0 (cons 1 (cons 2 '())))
@@ -145,7 +140,11 @@ Lists are favorable data structure in Racket. In fact, lists are pairs construct
 (cons 1 '())
 ```
 
-You can check if a list is null.
+```racket
+(cons '() 1)
+```
+
+리스트가 비어있는지 아닌지를 확인할 수 있습니다.
 
 ```racket
 (null? '())
@@ -155,39 +154,40 @@ You can check if a list is null.
 (null? '(1 2 3))
 ```
 
-Append two lists.
+두 개의 리스트를 이어붙일 수 있습니다.
 
 ```racket
 (append '(1 2) '(3 4))
 ```
 
-* Rather than:
+* 간단한 방법들
 ```racket
 '(1 2 (+ 1 2) 4 5)
 ```
 
-* spell like:
 ```racket
 (list 1 2 (+ 1 2) 4 5)
 ```
 
 #### Let Expressions ####
 
-If you want to express a complex calculation, you may want to name an intermediate result. In that case, you may want to use ```let```:
+```let```을 이용하여 값에 이름을 줄 수 있습니다.
+
 ```racket
 (let ([x 1] [y 2]) (+ x y))
 ```
 
-### Define ###
+### 정의하기 (Define) ###
 
-Suppose you want to apply the same function several times.
+같은 함수를 여러 번 사용해야 하는 경우, ```lambda```는 아래와 같이 사용하려는 횟수 만큼 사용해야 합니다.
+
 ```racket
 (lambda (x) (+ x 1)) 1
 (lambda (x) (+ x 1)) 2
 (lambda (x) (+ x 1)) 3
 ```
 
-This is quite inconvenient as you have to type much, and ugly since the same bit pattern recurs. To solve this problem, you can assign an expression in a variable by ```define```, however complicated the expression is.
+이러한 방식은 같은 표현이 반복되므로 불필요한 타이핑이 많고 코드가 지저분합니다. ```define```을 이용하면 복잡한 수식을 변수로 지정할 수 있습니다.
 
 ```racket
 (define s (string-append "Hello, " "World!\n"))
@@ -208,7 +208,7 @@ This is quite inconvenient as you have to type much, and ugly since the same bit
 (f 2 3 4)
 ```
 
-There is a easier way to ```define``` a procedure.
+좀 더 쉽게 ```define```을 사용할 수 있습니다.
 
 ```racket
 (define (mySum a b) (+ a b))
@@ -223,13 +223,13 @@ There is a easier way to ```define``` a procedure.
 (myIdentity 5)
 ```
 
-### Recursion ###
+### 재귀 (Recursion) ###
 
-* If a procedure(myfactorial) uses the very procedure(myfactorial), the procedure is called **recursion**. Let's see the myfactorial example.
+* 자기 자신을 다시 호출하는 경우, 재귀 (Recursion)라 합니다.
 
-#### Recursion with letrec ####
+#### letrec을 이용한 재귀 ####
 
-You can define a recursive function with ```letrec```:
+```letrec```을 이용하여 재귀함수를 정의할 수 있습니다:
 ```racket
 (letrec
     ([myfactorial
@@ -238,7 +238,7 @@ You can define a recursive function with ```letrec```:
   (myfactorial 10))
 ```
 
-As you can see, the definition of ```myfactorial``` calls ```myfactorial```. In other words, ```myfactorial``` uses itself! Contrast this with ```let``` version:
+위의 예제에서, ```myfactorial``` 함수의 정의에서 ```myfactorial```를 호출하는 것을 확인할 수 있습니다. ```let```을 이용한 ```myfactorial```은 다음과 같습니다:
 ```racket
 (let
     ([myfactorial
@@ -247,7 +247,7 @@ As you can see, the definition of ```myfactorial``` calls ```myfactorial```. In 
   (myfactorial 10))
 ```
 
-#### Recursion with define ####
+#### define을 이용한 재귀 ####
 ```racket
 (define myfactorial
     (lambda (n)
@@ -256,17 +256,9 @@ As you can see, the definition of ```myfactorial``` calls ```myfactorial```. In 
 (factorial 10)
 ```
 
-```racket
-(define myfactorial
-    (lambda (n)
-      (if (zero? n) 1 (* n (myfactorial (- n 1))))))
+#### 예제 ####
 
-(factorial 10)
-```
-
-#### Examples ####
-
-* Reversing list:
+* 리스트 반전:
 ```racket
 (define (myRev l)
   (if (null? l)
@@ -275,9 +267,9 @@ As you can see, the definition of ```myfactorial``` calls ```myfactorial```. In 
 (myRev (list 1 2 3 4))
 ```
 
-```myRev``` uses ```myRev``` itself. Recursion like this is widely used for such data structures whose size is not pre-defined as lists.
+```myRev```는 ```myRev``` 자신을 이용합니다. 
   
-* Adding 2 for all elements of a list:
+* 리스트의 모든 원소에 2를 더하기:
 ```racket
 (define (add_two l)
   (if (null? l)
@@ -286,9 +278,9 @@ As you can see, the definition of ```myfactorial``` calls ```myfactorial```. In 
 (add_two (list 1 2 3 4))
 ```
 
-### Labwork ###
+### 실습 ###
 
-* Get the sign of a number.
+* 숫자의 부호를 구하십시오.
 
 ```racket
 (define (sign x)
@@ -298,7 +290,7 @@ As you can see, the definition of ```myfactorial``` calls ```myfactorial```. In 
 (sign -1) ; "-"
 ```
 
-* Get the absolute number of a number.
+* 숫자의 절댓값을 구하십시오.
 
 ```racket
 (define (absolut x)
@@ -308,7 +300,7 @@ As you can see, the definition of ```myfactorial``` calls ```myfactorial```. In 
 (absolut -1) ; 1
 ```
 
-* Get the largest element of a list.
+* 리스트에서 가장 큰 원소를 찾으십시오.
 
 ```racket
 (define (maxima lst)
@@ -318,21 +310,21 @@ As you can see, the definition of ```myfactorial``` calls ```myfactorial```. In 
 (maxima '(7 3 1)) ; 7
 ```
 
-### Addendum ###
+### 부록 ###
 
-* Convert a number to a string
+* number를 string으로 바꾸기
 
 ```racket
 (number->string 123)
 ```
 
-* Convert a string to a number
+* string을 number로 바꾸기
 
 ```racket
 (string->number "123")
 ```
 
-* ```print``` and ```printf```: what's the difference?
+* ```print```와 ```printf```의 차이점
 
 ```racket
 (print "Hello, World!\n")
@@ -346,7 +338,7 @@ As you can see, the definition of ```myfactorial``` calls ```myfactorial```. In 
   (+ x y))
 ```
 
-* ```maxima```: a solution
+* ```maxima```
 
 ```racket
 (define (maxima l)
