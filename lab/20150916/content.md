@@ -53,7 +53,7 @@ TA [박상훈](http://sf.snu.ac.kr/sanghoon.park)
 ```
 `map`의 구조는 `incr-list`와 거의 비슷하죠? `incr-list`이 각 원소에 1을 더하는 일을 했다면, `map`은 함수 `f`를 인자로 받아서, 각 원소에 `f`를 적용합니다. `incr-list`를 `map`을 이용해서 구현할 수도 있죠.
 ```racket
-(define (incr-list' l)
+(define (incr-list- l)
   (map (lambda (x) (+ 1 x)) l))
 ```
 
@@ -86,7 +86,7 @@ TA [박상훈](http://sf.snu.ac.kr/sanghoon.park)
 
 `map`을 이용해서 `list-even?`을 구현하세요.
 ```racket
-(define (list-even?' items)
+(define (list-even?- items)
   (map 'TODO items))
 
 (list-even?' (list 0 1 2 3 4 5 6)) ; '(#t #f #t #f #t #f #t)
