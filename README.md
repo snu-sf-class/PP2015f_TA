@@ -25,10 +25,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
-* *(긴급)* 다음 주는 강의가 수요일, 실습이 월요일입니다.
-월요일은 실습실로 오시고, 수요일은 임시로 다른 강의실을 사용합니다.
- + 일 시: 2015. 9. 16.(수) 16:00-18:00
- + 강의실: 302동 409호 (120명 수용 가능)
+* *(긴급)* 이번 주는 월, 수 모두 실습을 진행합니다.
 * *(new!)* 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
 * 실습반이 아래와 같이 배정되었습니다.
  + https://docs.google.com/spreadsheets/d/1EzbIugvGQr2-V16NtcbgCojUSUcok9cUATzQ0fwvelU/edit?usp=sharing
