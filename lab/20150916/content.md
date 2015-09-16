@@ -20,7 +20,7 @@ TA [박상훈](http://sf.snu.ac.kr/sanghoon.park)
       0
       (+ 1 (length (cdr l)))))
 ```
-`length`를 분석해봅시다.
+-`length`를 분석해봅시다.
   + 인자인 `l`이 빈 리스트(`'()`)이면 `(null? l)`이 `true`가 되겠죠? 그러면 `(if ...)`는 0이 됩니다.
   + `l`이 빈 리스트가 아니면, `(if ..)`는 `(+ 1 (length (cdr l)))`이 됩니다.
     * 빈 리스트가 아니면 반드시 `(cdr l)`도 어떤 리스트겠죠. 길이는 `l`보다 하나 작을 것입니다.
@@ -34,7 +34,7 @@ TA [박상훈](http://sf.snu.ac.kr/sanghoon.park)
       '()
       (cons (+ 1 (car l)) (incr-list (cdr l)))))
 ```
-분석해봅시다. `l`이 빈 list이면 그대로 `'()`를 돌려줍니다. 리스트가 비지 않았으면 앞의 원소에 1을 더하고, 뒤의 리스트에 다시 `incr-list`를 적용해 둘을 다시 list로 붙입니다.역시 `(incr-list (list 0 1 2))`에 대해 생각해보고 실행해봅시다.
+- 분석해봅시다. `l`이 빈 list이면 그대로 `'()`를 돌려줍니다. 리스트가 비지 않았으면 앞의 원소에 1을 더하고, 뒤의 리스트에 다시 `incr-list`를 적용해 둘을 다시 list로 붙입니다.역시 `(incr-list (list 0 1 2))`에 대해 생각해보고 실행해봅시다.
 
 ## 고차 함수 (higher-order function)로 list 다루기 ##
 고차함수란 특별한 것이 아니라:
@@ -66,12 +66,12 @@ TA [박상훈](http://sf.snu.ac.kr/sanghoon.park)
           (cons (car l) (filter f (cdr l)))
           (filter f (cdr l)))))
 ```
-`filter` drops out those elements `x` that `(test x)` is not true from `l`. Verify with your intuition that the above code really filters well. Do some experiment like `(filter (lambda (x) (even? x)) (list 0 1 2 3 4 5))`.
+`filter`는 `test`라는 함수를 인자로 받아서 `(test a)`가 `true`가 되는 원소 `a`들만 남겨서 리스트를 만듭니다. 잘 작동하는지 `(filter (lambda (x) (even? x)) (list 0 1 2 3 4 5))`와 같이 실험해봅시다.
 
 ## Exercise ##
 - Is list even?
 
-Implement ```list-even?``` that, given a list of integers, results in the list of booleans which indicate whether the given integers are even. Fill the blank.
+`list-even?` 함수를 구현하세요. 정수로 된 list를 받아서, 짝수 대신 `#t`, 홀수 대신 `#f`인 list를 내놓는 함수입니다. `'TODO`를 지우고 빈 칸을 채워넣으세요.
 ```racket
 ; you may want to use standard library function (even? n)
 (define (list-even? items)
@@ -84,7 +84,7 @@ Implement ```list-even?``` that, given a list of integers, results in the list o
 
 - Is list even?: `map` version
 
-Implement ```list-even?'``` that works exactly the same with ```list-even?```. Use `map`.
+`map`을 이용해서 `list-even?`을 구현하세요.
 ```racket
 (define (list-even?' items)
   (map 'TODO items))
@@ -94,13 +94,13 @@ Implement ```list-even?'``` that works exactly the same with ```list-even?```. U
 
 - Has even?
 
-Implement ```has-even?``` that checks if a given list has an even number as follows:
+list를 받아서, 짝수를 포함하는지 확인하는 함수 `has-even?`을 구현하세요.
 ```racket
 (has-even '(1 2 3 5)) ; #t
 (has-even '(-1 1 3)) ; #f
 ```
 
-Note that it is convenient to implement `(or-multi l)` that, given a list `l` of booleans, results in the "or" of the elements in `l`. If it is the case, the problem is reduced to:
+`or-multi`라는 보조 함수를 구현해서 has-even을 구현하는 방법도 있습니다. boolean으로 이루어진 list를 받아서, 원소들 간에 or 연산을 적용한 결과를 내놓는 함수 `or-multi`가 있다면, 이 문제는 아래와 같이 풀리겠죠?
 ```racket
 (define (has-even l)
   (or-multi (list-even? l)))
