@@ -26,8 +26,8 @@
           (filter test (cdr l)))))
 
 ; you may want to use standard library function (even? n)
-(define (list-even? items)
-  (if (null? items)
+(define (list-even? l)
+  (if (null? l)
     '()
     (cons (even? (car l)) (list-even? (cdr l)))))
 
