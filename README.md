@@ -16,7 +16,8 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 
 * 수업: Mon 16:00-17:50 @ Bldg 301 Rm 118
 * 실습: Wed 16:00-17:50 @ Bldg 302 Rm 311-1
-* 조교 Office Hour: Mon, Wed 15:00-16:00 @ Bldg 301 Rm 554-1 혹은 메일을 통한 개별약속.
+* 조교 Office Hour: Mon, Wed 15:20-16:00 @ Bldg 301 Rm 554-1 혹은 메일을 통한 개별약속.
+  + 개인 사정상 부득이하게 자리를 비울 수 있으므로 미리 연락 주시는 것이 좋습니다.
 
 ## Links ##
 
@@ -25,11 +26,11 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
-* *(긴급)* 이번 주는 월, 수 모두 실습을 진행합니다.
-* *(new!)* 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
+* *(긴급)* 이번 주 (9/21, 9/23)은 모두 교수님의 강의로 진행됩니다.
+ + 수요일 강의실은 추후 공지됩니다.
+* 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
 * 실습반이 아래와 같이 배정되었습니다.
  + https://docs.google.com/spreadsheets/d/1EzbIugvGQr2-V16NtcbgCojUSUcok9cUATzQ0fwvelU/edit?usp=sharing
- + 자신의 학번이 없거나 부득이한 사유가 있어 반을 옮기고 싶으신 분은 메일로 알려주세요.
  + 중간고사 이후 실습 시간을 재배정할 예정입니다. (작년의 경우 중간고사 이후 한 반으로 운영이 가능했음)
 * 수업 내용 관련 질문의 경우 이 GitHub 페이지의 issues 게시판을 이용할 것입니다.
  + GitHub에 계정이 없으신 수강생은 지금 만들어두시면 앞으로 도움이 될 것입니다. 
