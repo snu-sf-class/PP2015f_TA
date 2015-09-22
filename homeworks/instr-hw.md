@@ -12,6 +12,7 @@
   + (작년의 기준: For the late submission, we accept your submission for 7 days after deadline. Your grade will get deducted by 5% for each day.)
 
 * 실습 때와 마찬가지로, 숙제마다 뼈대 코드가 제공됩니다.
+  + [이 곳](/homeworks)에 업로드됩니다.
   + `'TODO` 이외의 부분은, 특별한 문제가 없는 한 수정하지 말아주세요. 특히, `provide`를 추가 혹은 제거하지 말아주세요.
   + `define`과 같은 것을 이용해 보조 함수 등을 추가하는 것은 가능하고, 권장합니다.
   + 문제와 미묘하게 다른 스펙의 뼈대 코드가 제공될 수 있고, 그 때마다 알려드리겠습니다.
