@@ -1,31 +1,41 @@
-# Instructions for Homework #
+# 숙제 하는 법 #
 
-## Rules ##
+## 규칙 ##
 
-* You should submit your code, such as `.rkt` file, for each problem.
+* Racket 문제는 `.rkt`파일, OCaml 문제는 `.ml`파일로 제출해주세요.
 
-* If you see a warning page while uploading `.rkt` files from the outside of school, please change the file extension as `.txt`.
+* 학외에서 제출할 시에 `.rkt` 파일의 업로드가 거부당하기도 합니다. 이 때는 확장자만 `.txt`로 변환해주세요. (만약 메모장에 내용을 붙여넣으실 경우 특수 문자가 붙어 자동 채점이 안 될 때도 있습니다. 이 경우엔 재채점을 하여 불이익은 없을 것입니다만, 번거로우시지 않도록 확장자만 바꿔주세요.)
 
-* You should upload your file using our online submission system shown below.
+* 제출은 웹으로 합니다. 아래에 알려드릴 제출 시스템에 해주세요.
 
-* For the late submission, we accept your submission for 7 days after deadline. Your grade will get deducted by 5% for each day.
+* 지각 제출의 경우 채점 기준은 곧 공지하겠습니다.
+  + (작년의 기준: For the late submission, we accept your submission for 7 days after deadline. Your grade will get deducted by 5% for each day.)
 
-## Self-grader ##
+* 실습 때와 마찬가지로, 숙제마다 뼈대 코드가 제공됩니다.
+  + `'TODO` 이외의 부분은, 특별한 문제가 없는 한 수정하지 말아주세요. 특히, `provide`를 추가 혹은 제거하지 말아주세요.
+  + `define`과 같은 것을 이용해 보조 함수 등을 추가하는 것은 가능하고, 권장합니다.
+  + 문제와 미묘하게 다른 스펙의 뼈대 코드가 제공될 수 있고, 그 때마다 알려드리겠습니다.
+  + 제출 시, 뼈대코드의 파일 이름을 변경하지 말아주세요
+    - 제출 시스템이 자동으로 제출 시각과 학번을 파일 이름에 추가하여 저장합니다.
+    - 특히, 제목이 영어가 아닌 문자(한글 등)를 포함할 경우 채점에 문제가 생깁니다.
 
-* We are going to distribute the self grader for each problem.
+## 자가채점기 ##
 
-* There are some testcases for the problem.
+* 각 문제마다 자가채점기가 배포될 것입니다. 자가채점기는 실제 채점에 사용될 테스트케이스는 아닙니다.
 
-* You should consult this for I/O format before submission. NO EXCUSE for this issue after you submit homework.
+* 특히, I/O 포맷을 잘 지켜서 자가채점기가 인식할 수 있도록 해주세요. 그렇지 않을 경우 보통 0점 처리됩니다.
 
-* How to use the self grader: for each problem, load the self grader code on DrRacket and just run it.
+* 사용법: 자가채점기를 문제와 같은 디렉토리(또는 폴더)에 놓은 후, Racket 또는 DrRacket으로 실행해주면 됩니다.
 
-## Submission ##
+## 제출 시스템 ##
 
-URL: [http://ropas.snu.ac.kr/~ta/4190.210/14/hw/submit/](http://ropas.snu.ac.kr/~ta/4190.210/14/hw/submit/)
+URL: [http://ropas.snu.ac.kr/~ta/4190.210/15/hw/](http://ropas.snu.ac.kr/~ta/4190.210/15/hw/)
 
-* Click 'Register' and register.
+* 'Register'를 누르고 가입해주세요.
+  + 예시) Student No.: 2013-12345, Name: Yoonseung, etc..
+    * 학번만 잘 쓰시면 돼요.
+  + 암호의 경우, DB에서 hash 함수를 사용한 결과만을 저장합니다. 따라서 저희가 타 사이트에서 여러분의 계정을 해킹할 수도 없지만, 잊어버렸을 경우 암호를 찾아드릴수도 없습니다. 자주 쓰시는 암호를 사용해주세요.
 
-* You can upload your homeworks after login. You can re-upload your file before the deadline.
+* 로그인 후 각 문제마다 파일을 하나씩 제출해주세요. 제출 기한 전까지 여러 번 파일을 제출할 수 있고, 모든 파일이 시스템에 저장됩니다. 물론 가장 최근 파일로 채점합니다.
 
-* We confirm your submission status [here](https://docs.google.com/spreadsheets/d/1U6o1kiyhlzTgWHpwbanHYmWH0E7GZ2snLfczqxtJZaM/pubhtml). We are going to renew the information from time to time.
+* 로그아웃 후 다시 로그인 했을 때, 파일이 표시될 경우 제출이 제대로 된 것입니다.
