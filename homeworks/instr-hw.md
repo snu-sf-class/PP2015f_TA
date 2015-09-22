@@ -16,8 +16,8 @@
 실습 때와 마찬가지로, 숙제마다 뼈대 코드가 제공됩니다.
 
 * [이 곳](/homeworks)에 업로드됩니다. 다운 받는 법은 다음과 같습니다.
-  + git에 익숙하신 분은 이 repository를 `clone`해 받으면 `homeworks/hw[n]-skeleton` 디렉토리 안에 있습니다.
-  + git을 잘 모르시는 분은 메인 페이지에서 `homeworks/hw[n]-skeleton` 아래로 들어간 후, `hw[n].tar`파일을 클릭하여, `View raw` 버튼을 클릭하면 다운이 시작됩니다.
+  + git에 익숙하신 분은 본인의 컴퓨터 또는 서버에서 이 repository를 `git clone git@github.com:snu-sf-class/PP2015f_TA.git`으로 받으면 `homeworks/hw[n]-skeleton` 디렉토리 안에 있습니다.
+  + git을 잘 모르시는 분은 메인 페이지에서 `homeworks/hw[n]-skeleton` 아래로 들어간 후, `hw[n].tar`파일을 클릭하여, `View Raw` 링크를 클릭하면 다운이 시작됩니다.
   + 혹시 본인의 압축 해제 프로그램으로 `tar` 파일 묶음을 풀 수 없다면 알려주세요.
 * `'TODO` 이외의 부분은, 특별한 문제가 없는 한 수정하지 말아주세요. 특히, `provide`를 추가 혹은 제거하지 말아주세요.
 * `define`과 같은 것을 이용해 보조 함수 등을 추가하는 것은 가능하고, 권장합니다.
