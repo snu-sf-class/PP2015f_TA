@@ -27,6 +27,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 
 ## Announcement ##
 * 숙제1이 [Course Page](http://sf.snu.ac.kr/gil.hur/4190.210/15/)에 올라왔습니다. 기한: 10/4 자정
+ + 반드시 [숙제 하는 법](homeworks/instr-hw.md)와 [HW1 추가정보](homeworks/hw1-skeleton/hw1_instr.md)를 먼저 읽고 진행해주세요!
 * *(긴급)* 이번 주 (9/21, 9/23)은 모두 교수님의 강의로 진행됩니다.
  + 수요일(9/23) 강의실은 "302동 409호"입니다.
 * 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
@@ -40,7 +41,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
  + 답변은 조교 또는 학생 누구든 참여하시기를 권장합니다.
 
 ## Homework ##
-* 하기 전에 [instructions on homework](homeworks/instr-hw.md)를 읽으세요.
+* 하기 전에 [숙제 하는 법](homeworks/instr-hw.md)을 읽으세요.
 * *중요*: 치팅은 하지 마세요.
   + 우리는 (우수한) clone detector와 지난 10년간의 코드를 가지고 있습니다.
 * *중요*: 최신 버전의 [Racket 6.2](http://download.racket-lang.org)와 [OCaml 4.02](http://ocaml.org/docs/install.html)를 사용하세요. 그렇지 않을 경우 채점이 제대로 이루어지지 않을 수도 있습니다.
