@@ -1,7 +1,6 @@
 #lang racket
 
 (provide crazy2add)
-(require "hw1-1.rkt")
 
 (define (crazy2add lhs rhs)
 	(if (null? lhs)
