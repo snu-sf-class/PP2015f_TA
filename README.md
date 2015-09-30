@@ -27,7 +27,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 
 ## Announcement ##
 * *(긴급)* 이번 주 (9/30)은 교수님의 강의로 진행됩니다.
- + 강의실: 추후 공지
+ + 강의실: 302동 409호
 * 숙제1이 [Course Page](http://sf.snu.ac.kr/gil.hur/4190.210/15/)에 올라왔습니다. 기한: 10/4 자정
  + 반드시 [숙제 하는 법](homeworks/instr-hw.md)과 [HW1 추가정보](homeworks/hw1-skeleton/hw1_instr.md)를 먼저 읽고 진행해주세요!
 * 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
