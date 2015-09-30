@@ -26,10 +26,10 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* *(긴급)* 이번 주 (9/30)은 교수님의 강의로 진행됩니다.
+ + 강의실: 추후 공지
 * 숙제1이 [Course Page](http://sf.snu.ac.kr/gil.hur/4190.210/15/)에 올라왔습니다. 기한: 10/4 자정
  + 반드시 [숙제 하는 법](homeworks/instr-hw.md)과 [HW1 추가정보](homeworks/hw1-skeleton/hw1_instr.md)를 먼저 읽고 진행해주세요!
-* *(긴급)* 이번 주 (9/21, 9/23)은 모두 교수님의 강의로 진행됩니다.
- + 수요일(9/23) 강의실은 "302동 409호"입니다.
 * 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
  + 출석 체크용 사진 촬영은 쉬는 시간이 끝난 다음 5분 후에 이루어집니다.
  + 9/23(수) 수업부터는 출석 체크 시간에 자리를 비울 경우 출석을 인정해드리지 않을 예정이니 주의하시기 바랍니다.
