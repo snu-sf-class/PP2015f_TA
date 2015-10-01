@@ -3,19 +3,19 @@
 (provide is-empty-tree? is-leaf? leaf-val nth-child)
 
 (define (leaf n)
-  'TODO)
+  (list n))
 
 (define (node l)
-  'TODO)
+  l)
 
 (define (is-empty-tree? t)
-  'TODO)
+  (if (null? t) #t #f))
 
 (define (is-leaf? t)
-  'TODO)
+  (if (= (length t) 1) #t #f))
 
 (define (leaf-val t)
-  'TODO)
+  (list-ref t 0))
 
 (define (nth-child t n)
-  'TODO)
+  (list-ref t n))
