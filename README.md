@@ -10,7 +10,7 @@ TA: [김윤승](http://sf.snu.ac.kr/yoonseung.kim/),
     
 TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * 수업 관련 질문은 [issues](https://github.com/snu-sf-class/PP2015f_TA/issues)를 이용해주세요.
-* 이외의 개인적인 일은 조교메일을 이용해주세요 - 조교 개인 메일 말고 위의 공식 조교 메일 pp2015fall을 이용해주세요!
+* 이외의 개인적인 일은 조교메일 - 조교 개인 메일 말고 위의 공식 조교 메일 pp2015fall - 을 이용해주세요!
 
 ## Times ##
 
@@ -26,9 +26,8 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
-* *(긴급)* 이번 주 (9/30)은 교수님의 강의로 진행됩니다.
- + 강의실: 302동 409호
-* 숙제1이 [Course Page](http://sf.snu.ac.kr/gil.hur/4190.210/15/)에 올라왔습니다. 기한: 10/4 자정
+* 이번 주 월요일 (10/5)는 실습을 진행합니다. 장소는 평소와 같이 302동 소프트웨어 실습실입니다.
+* [숙제1](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw1.pdf) 기한이 연기되었습니다. 기한: 10/11 자정
  + 반드시 [숙제 하는 법](homeworks/instr-hw.md)과 [HW1 추가정보](homeworks/hw1-skeleton/hw1_instr.md)를 먼저 읽고 진행해주세요!
 * 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
  + 출석 체크용 사진 촬영은 쉬는 시간이 끝난 다음 5분 후에 이루어집니다.
