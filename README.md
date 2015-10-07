@@ -26,12 +26,13 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
-* 이번 주 월요일 (10/5)는 실습을 진행합니다. 장소는 평소와 같이 302동 소프트웨어 실습실입니다.
+* 현재(10/7 11:35)까지 받은 파일의 목록을 [여기](https://docs.google.com/a/sf.snu.ac.kr/spreadsheets/d/1ZNYdz0pdTcGQH9dSImFTuTM_qJxG8KoX3d-V2SwOVbk/edit?usp=sharing)에 올려놓았습니다. 이미 제출하신 분은 한 번 확인해보세요.
+* 이번 주 수요일 (10/7)은 교수님의 강의를 진행합니다. 302동 409호입니다.
 * [숙제1](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw1.pdf) 기한이 연기되었습니다. 기한: 10/11 자정
  + 반드시 [숙제 하는 법](homeworks/instr-hw.md)과 [HW1 추가정보](homeworks/hw1-skeleton/hw1_instr.md)를 먼저 읽고 진행해주세요!
  + 현재 각 파일을 zip으로 압축해서 제출하신 분이 있는데, 압축은 하지 말아주세요. 만약 제출시 오류 발생 때문이라면 확장자를 txt로 바꾸어 제출해주세요.
 * 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
- + 출석 체크용 사진 촬영은 쉬는 시간이 끝난 다음 5분 후에 이루어집니다.
+ + 출석 체크용 사진 촬영은 쉬는 시간이 끝난 다음 5분 후, 또는 17:30에 이루어집니다.
  + 9/23(수) 수업부터는 출석 체크 시간에 자리를 비울 경우 출석을 인정해드리지 않을 예정이니 주의하시기 바랍니다.
 * 실습반이 아래와 같이 배정되었습니다.
  + https://docs.google.com/spreadsheets/d/1EzbIugvGQr2-V16NtcbgCojUSUcok9cUATzQ0fwvelU/edit?usp=sharing
