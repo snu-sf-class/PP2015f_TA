@@ -26,8 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
-* [숙제2](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw2.pdf)가 나왔습니다. 기한: 10/18(일) 자정
- + 곧 뼈대코드와 추가 정보들을 이곳에 올리겠습니다.
+* [숙제2](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw2.pdf)가 나왔습니다. 뼈대코드는 [여기](homeworks/hw2-skeleton)입니다. 기한: 10/18(일) 자정
 * 현재(10/7 11:35)까지 받은 파일의 목록을 [여기](https://docs.google.com/a/sf.snu.ac.kr/spreadsheets/d/1ZNYdz0pdTcGQH9dSImFTuTM_qJxG8KoX3d-V2SwOVbk/edit?usp=sharing)에 올려놓았습니다. 이미 제출하신 분은 한 번 확인해보세요.
 * [숙제1](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw1.pdf) 기한이 연기되었습니다. 기한: 10/11(일) 자정
  + 반드시 [숙제 하는 법](homeworks/instr-hw.md)과 [HW1 추가정보](homeworks/hw1-skeleton/hw1_instr.md)를 먼저 읽고 진행해주세요!
@@ -50,7 +49,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * 하기 전에 [숙제 하는 법](homeworks/instr-hw.md)을 읽으세요.
 * *중요*: 치팅은 하지 마세요.
   + 우리는 (우수한) clone detector와 지난 10년간의 코드를 가지고 있습니다.
-* *중요*: 최신 버전의 [Racket 6.2](http://download.racket-lang.org)와 [OCaml 4.02](http://ocaml.org/docs/install.html)를 사용하세요. 그렇지 않을 경우 채점이 제대로 이루어지지 않을 수도 있습니다.
+* *중요*: [Racket 6.2](http://download.racket-lang.org)와 [OCaml 4.02](http://ocaml.org/docs/install.html)를 사용하세요. 그렇지 않을 경우 채점이 제대로 이루어지지 않을 수도 있습니다.
 * 숙제의 지시를 엄격하게 따라주세요. 특히, 입/출력 포맷을 잘 지켜주세요. 조교가 숙제마다 자가채점기를 배포할 것입니다. 제출 전 꼭 확인해보세요. (그렇지 않을 경우 0점입니다.)
 
 ## Reference ##
