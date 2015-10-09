@@ -4,26 +4,27 @@
 (provide is-zero? is-one? is-not? is-and? is-or? sub-circuit)
 
 (define zero
-  'TODO)
+  (leaf #f))
 (define one
-  'TODO)
+  (leaf #t))
 (define (not-c c)
-  'TODO)
+  (node (list 'n c)))
 (define (and-c c1 c2)
-  'TODO)
+  (node (list 'a c1 c2)))
 (define (or-c c1 c2)
-  'TODO)
+  (node (list 'o c1 c2)))
 
 (define (is-zero? c)
-  'TODO)
+  (equal? (leaf-val c) #f))
 (define (is-one? c)
-  'TODO)
+  (equal? (leaf-val c) #t))
 (define (is-not? c)
-  'TODO)
+  (equal? (leaf-val c) 'n))
 (define (is-and? c)
-  'TODO)
+  (equal? (leaf-val c) 'a))
 (define (is-or? c)
-  'TODO)
+  (equal? (leaf-val c) 'o))
 
 (define (sub-circuit c n)
-  'TODO)
+  (nth-child c (+ 1 n)))
+
