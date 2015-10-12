@@ -30,7 +30,7 @@
 
 (Solution: (+ n m))
 
-## How to troubleshout? ##
+## How to troubleshoot? ##
 
 오늘은 약간 다른 얘기를 해볼까 합니다. 이 과목 뿐만 아니라 이후 어떤 상황에서도
 프로그래밍 중 여러분이 맞닥뜨릴 문제들을 어떻게 해결할 지에 관한 내용입니다.
