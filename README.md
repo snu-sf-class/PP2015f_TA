@@ -26,8 +26,8 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 이번 주도 강의와 실습 날짜가 바뀌었습니다. 10/12(월) 실습, 10/14(수) 강의입니다.
 * [숙제2](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw2.pdf)가 나왔습니다. 뼈대코드는 [여기](homeworks/hw2-skeleton)입니다. 기한: 10/18(일) 자정
-* 현재(10/7 11:35)까지 받은 파일의 목록을 [여기](https://docs.google.com/a/sf.snu.ac.kr/spreadsheets/d/1ZNYdz0pdTcGQH9dSImFTuTM_qJxG8KoX3d-V2SwOVbk/edit?usp=sharing)에 올려놓았습니다. 이미 제출하신 분은 한 번 확인해보세요.
 * [숙제1](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw1.pdf) 기한이 연기되었습니다. 기한: 10/11(일) 자정
  + 반드시 [숙제 하는 법](homeworks/instr-hw.md)과 [HW1 추가정보](homeworks/hw1-skeleton/hw1_instr.md)를 먼저 읽고 진행해주세요!
  + 현재 각 파일을 zip으로 압축해서 제출하신 분이 있는데, 압축은 하지 말아주세요. 만약 제출시 오류 발생 때문이라면 확장자를 txt로 바꾸어 제출해주세요.
