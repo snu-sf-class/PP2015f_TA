@@ -26,6 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 지각 제출에 대한 규정이 업데이트 되었습니다. [여기](homeworks/instr-hw.md)를 확인하세요.
 * 10/14(수) 강의실: 301-106 (이후 두 번째 시간은 301-105로 옮김)
 * [여기서](https://docs.google.com/spreadsheets/d/1ZNYdz0pdTcGQH9dSImFTuTM_qJxG8KoX3d-V2SwOVbk/edit?usp=sharing) 숙제1 기한 내에 제출받은 파일 목록을 확인하세요.
 * [숙제2](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw2.pdf)가 나왔습니다. 뼈대코드는 [여기](homeworks/hw2-skeleton)입니다. 기한: 10/18(일) 자정
@@ -47,7 +48,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * 실습 자료는 [여기](lab/)에서 확인하실 수 있습니다.
 
 ## 숙제 ##
-* 하기 전에 [숙제 하는 법](homeworks/instr-hw.md)을 읽으세요.
+* 하기 전에 [숙제 하는 법](homeworks/instr-hw.md)을 읽으세요. *지각 제출에 관한 규정이 업데이트 되었습니다*
 * *중요*: 치팅은 하지 마세요.
   + 우리는 (우수한) clone detector와 지난 10년간의 코드를 가지고 있습니다.
 * *중요*: [Racket 6.2](http://download.racket-lang.org)와 [OCaml 4.02](http://ocaml.org/docs/install.html)를 사용하세요. 그렇지 않을 경우 채점이 제대로 이루어지지 않을 수도 있습니다.
