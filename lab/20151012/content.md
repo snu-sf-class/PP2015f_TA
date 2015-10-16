@@ -1,42 +1,39 @@
-# Lab Session, Principles of Programming #
-
-20141008 (Wed) 16:00-17:50
-TA [Jeehoon Kang](http://sf.snu.ac.kr/jeehoon.kang), [Yoonseung Kim](http://ropas.snu.ac.kr/~yskim)
+# 프로그래밍 원리 실습 #
 
 ## Termination of Program ##
 
-The following function, `fac` to compute factorial, terminates:
+아래의 함수 `fac`은 팩토리얼을 계산하는 함수이고, 언제나 멈춥니다:
 ```racket
 (define (fac n) 
    (printf "~s~n" n)
    (if (= n 0) 1 (* n (fac (- n 1)))))
 ```
 
-To check that the factorial function terminates, it prints a
-*decreasing number* by ```printf``` in the function.  The decreasing
-number should satisfy the following conditions:
+팩토리얼 함수가 실제로 줄어드는지 확인하기 위해,
+```printf```로 *줄어드는 숫자*를 출력해 보았습니다.
+줄어드는 숫자는 다음 두 가지 조건을 만족해야 합니다.
 
-- it must decrease in the every execution steps.
-- it must be bigger than or equal to 0.
+- 매 실행마다 반드시 줄어들어야 합니다.
+- 값은 언제나 0 이상이어야 합니다.
 
-The `my-gcd` function below also terminates.  To show the function
-terminates explicitly, fill in the `'TODO`.  You may assume that the
-inputs of the `my-gcd` function are bigger than or equal to 0.
+아래의 `my-gcd` 함수도 언제나 멈춥니다. 이것을 확인하기 위해, `TODO`를 채워보세요.
+이 함수의 입력은 언제나 0 이상이라고 가정하세요.
 
 ```racket
 (define (my-gcd n m)
-  (printf "~s~n" (+ n m))
+  (printf "~s~n" 'TODO)
   (cond ((= n 0) m)
         ((= m 0) n)
         ((< n m) (my-gcd n (- m n)))
         (else (my-gcd (- n m) m))))
 ```
 
-## How to troubleshout? ##
+(Solution: (+ n m))
 
-Today, we will digress a little to learn how to resolve problems you
-will encounter during programming. This is not particularly pertaining
-to Racket, but the general advice will apply to many situations.
+## How to troubleshoot? ##
+
+오늘은 약간 다른 얘기를 해볼까 합니다. 이 과목 뿐만 아니라 이후 어떤 상황에서도
+프로그래밍 중 여러분이 맞닥뜨릴 문제들을 어떻게 해결할 지에 관한 내용입니다.
 
 ### Audience ###
 - Those who suffered from not knowing how to implement something for
@@ -50,59 +47,55 @@ your problems generally related to languages. I hope this really helps
 you.
 
 ### Implementation Scenario ###
-Suppose you want to concatenate all numbers from `1` to `n` as follows:
+`acc`라는 함수를 정의하여 `1`부터 `n`까지의 숫자를 다 연결하는 문자열을 만들고 싶다고 합시다:
 ```racket
 (equal? "1234567891011" (acc 11))
 ```
 
-So you begin to define `acc` as follows:
+다음과 같이 `acc`을 설계하였습니다:
 ```racket
 (define (acc n)
   (if (equal? n 0) ""
       'TODO))
 ```
 
-Now `'TODO` should be the concatenation of `(acc (- n 1))` and
-`n`. However, types mismatch: the former is a string, while the latter
-is an integer. The result should be a string. So you have to convert
-an integer into a string. But how?
+이제, `TODO`에 `(acc (- n 1))`과 `n`을 연결하는 코드를 채우면 되겠죠.
+하지만 타입이 맞지 않습니다. 앞의 것은 문자열(string)인데 `n`은 숫자(integer)이죠.
+결과는 string이 되어야 하므로 결국 integer를 string으로 변환하는 방법이 필요합니다.
+하지만 누가 가르쳐 준 적이 없는데, 어떻게 하죠? Racket 매뉴얼을 다 읽어봐야 할까요?
 
-Don't panic, and just google
-["racket convert from integer to string"](https://www.google.com/?q=racket%20convert%20from%20integer%20to%20string). The
-first result is the
-[racket documentation on string](http://docs.racket-lang.org/reference/strings.html). You
-can easily find "Converting Values to Strings", which is exactly you
-wanted to find. Then your second try is as follows:
+당황하지 마시고, 그냥 Google에 적당한 키워드를 검색해보세요.
+["racket convert from integer to string"](https://www.google.com/?q=racket%20convert%20from%20integer%20to%20string).
+첫 번째 결과는 이 페이지입니다.
+[racket documentation on string](http://docs.racket-lang.org/reference/strings.html).
+
+이제 여러분이 원하는 함수를 정확히 찾아내었습니다. 이제 문제 상황은 아래와 같이 변하였습니다.
 ```racket
 (define (acc n)
   (if (equal? n 0) ""
       ('TODO (acc (- n 1)) (number->string n))))
 ```
 
-Now you have to concatenate two strings. But how? Don't panic, and
-just google
-["racket concatenate strings"](https://www.google.co.kr/search?q=racket+concatenate+strings). The
-first result is, as usual(!),
-[racket documentation on string](http://docs.racket-lang.org/reference/strings.html). You
-can easily find "string-append", which is exactly you wanted to
-find. Then your solution is as follows:
+이제 두 string을 연결하는 방법만 알아내면 됩니다. string간의 연결을 컴퓨터공학에선 *concatenate* 또는 *append*라고 합니다. 이제 구글에 다음과 같이 쳐보세요.
+["racket concatenate strings"](https://www.google.co.kr/search?q=racket+concatenate+strings).
+역시 첫 번째 페이지가 아래와 같이 나오네요.
+[racket documentation on string](http://docs.racket-lang.org/reference/strings.html).
+우리가 원하는 함수 "string-append"를 정확히 찾았습니다. 이제 아래와 같이 문제를 풀 수 있겠죠?
 ```racket
 (define (acc n)
   (if (equal? n 0) ""
       (string-append (acc (- n 1)) (number->string n))))
 ```
 
-Now you solve your problem!
-
-### Error Message Scenario ###
-Suppose you wrote down the following program:
+### Error Message Scenario - 버그 찾는 법 ###
+여러분이 아래와 같이 문제를 풀었다고 해봅시다.
 ```racket
 (define (acc n)
   (if (equal? n 0) ""
       (cons (acc (- n 1)) (number->string n))))
 ```
 
-Then the result of `(acc 11)` should be:
+그러면 `(acc 11)`의 결과는 아래처럼 됩니다:
 ```racket
 '((((((((((("" . "1") . "2") . "3")
          .
@@ -122,45 +115,39 @@ Then the result of `(acc 11)` should be:
   .
   "11")
 ```
-Oh my god. What happened?! (You may know the answer, but pretend not
-to know for now!)
+이게 어떻게 된 일일까요?? (답을 알아도 여기선 일단 모른 척 합시다!)
 
-First, `11` is an input too large. Let's see what happens for `(acc
-0)`. It results in `""`, which is (largely) what we wanted. Then let's
-see what happens for `(acc 1)`. It results in `'("" . "1")`, which is
-NOT what we wanted! *Lessen: find the smallest example you can find.*
+우선, `11` 은 너무 큽니다. 작은 입력부터 체크합시다: `(acc 0)`.
+결과는 `""`, 우리가 원하던 결과입니다. 그러면 이제 `(acc 1)`를 테스트합시다.
+결과는 다음과 같이 나오네요: `'("" . "1")`, 우리가 원하는 게 아닙니다!
+*Lesson: 가장 작은 예제를 찾아라.*
 
-Second, let's think of what happens here. `acc` is a recursive
-function, for reasoning on `(acc 1)`, it may help to replace `n` by
-`1` at the definition of `acc`. Then we have:
+이제 무슨 일이 일어나는 지 봅시다. `acc`는 재귀함수입니다. `(acc 1)`을 분석하기 위해 `n`을 `1`로 바꿔보세요.
+
 ```racket
 (if (equal? 1 0) ""
     (cons (acc (- 1 1)) (number->string 1)))
 ```
-Then we can simplify further. Since `1` does not equal to `0`, the
-above expression is equivalent to:
+더욱 간단히 해봅시다. `1`은 `0`과 다르므로, 위 코드는 아래와 동등한 의미를 가집니다.
 ```racket
 (cons (acc (- 1 1)) (number->string 1))
 ```
-Then to:
+`(acc 0)`의 실행 결과는 우리가 이미 알고있죠.
 ```racket
 (cons "" "1")
 ```
-Oh, now it is clear that we wrongly write `cons` where we should write
-`string-append`! Correct it, then we will see the right answer!
-*Lesson: To troubleshout, concretely reason on the small example you
-found.*
+이제 확실해졌습니다. 우리는 ""과 "1"을 string으로 연결해야 하는데 `cons`를 써서 pair로 만들어버렸네요.
+`string-append`로 바꿔주면 버그를 해결할 수 있습니다.
+*Lesson: 문제를 해결하기 위해, 작은 예제 위에서 구체적으로 생각하기.*
 
 ### Lessons Learned ###
-- If you don't know how to do something:
-    + If you don't know something, google it.
-    + To better google, you may have to formulate a good question.
-        * Learn English. English is the most important language in computer science (..)
-        * Learn what is the common question in computer science.
-- If you did something, but that goes wrong:
-    + If you can google on it, do it (error message, etc).
-    + Find the core of your problem (the smallest example, etc).
-    + Reason on the core of your problem.
-- If you are not familiar with Racket enough to follow the logic in
-  this example, you may have to learn Racket basics first. Go through
-  lab session materials first, and then try again.
+- 뭔가를 하는 방법을 모를 때:
+    + 구글에 검색합니다.
+    + 좋은 검색 결과를 얻으려면, 질문을 잘 만들어야 합니다.
+        * 영어를 잘 알아야.. 합니다
+        * Computer science에서 주로 어떤 질문들이 흔하게 나오는지 감을 잡아야..
+- 뭔가를 했는데 결과가 틀릴 때:
+    + 구글에 검색할 수 있는 상황이면, 하세요 (에러메시지 등).
+    + 문제 상황의 핵심을 찾으세요 (문제가 일어나는 가장 작은 예를 찾기).
+    + 실행 과정을 구체적으로 생각해보세요.
+- 만약 Racket에 충분히 익숙하지 않아 이 예제들을 따라가기 힘들다면, 우선 Racket을 공부해야 합니다. 실습 자료를 처음부터 읽고 다시 따라해보세요.
