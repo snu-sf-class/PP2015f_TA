@@ -1,6 +1,6 @@
 # lang racket
 ; not for execution
-; write a type of each expression after the closing parenthesis
+; write a type of each expression
 
 (define (sigma lower upper)
   (lambda (f)
