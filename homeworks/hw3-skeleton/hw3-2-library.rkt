@@ -2,7 +2,7 @@
 
 (provide can-enter same-room? empty-set add-element is-member? is-subset?)
 
-(define (can-enter maze room) 
+(define (can-enter room maze) 
   (list-ref (cdr maze) room)) 
 
 (define same-room? equal?) 
