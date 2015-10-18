@@ -26,14 +26,11 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* [숙제3](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw3.pdf)이 나왔습니다. 뼈대코드는 [여기](homeworks/hw3-skeleton)이고, 10/18일 오후 10시 이후에 약간 수정되었습니다. 자세한 내용은 [hw3_instr](homeworks/hw3-skeleton/hw3_instr.md)을 참고하세요. 기한: 10/25(일) 자정
 * 지각 제출에 대한 규정이 업데이트 되었습니다. [여기](homeworks/instr-hw.md)를 확인하세요.
-* 10/14(수) 강의실: 301-106 (이후 두 번째 시간은 301-105로 옮김)
 * [여기서](https://docs.google.com/spreadsheets/d/1ZNYdz0pdTcGQH9dSImFTuTM_qJxG8KoX3d-V2SwOVbk/edit?usp=sharing) 숙제1 기한 내에 제출받은 파일 목록을 확인하세요.
 * [숙제2](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw2.pdf)가 나왔습니다. 뼈대코드는 [여기](homeworks/hw2-skeleton)입니다. 기한: 10/18(일) 자정
  + 숙제2-3 관련하여 공지사항을 이슈에 등록하였습니다. 확인 부탁드립니다.
-* [숙제1](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw1.pdf) 기한이 연기되었습니다. 기한: 10/11(일) 자정
- + 반드시 [숙제 하는 법](homeworks/instr-hw.md)과 [HW1 추가정보](homeworks/hw1-skeleton/hw1_instr.md)를 먼저 읽고 진행해주세요!
- + 현재 각 파일을 zip으로 압축해서 제출하신 분이 있는데, 압축은 하지 말아주세요. 만약 제출시 오류 발생 때문이라면 확장자를 txt로 바꾸어 제출해주세요.
 * 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
  + 출석 체크용 사진 촬영은 쉬는 시간이 끝난 다음 5분 후, 또는 17:30에 이루어집니다.
  + 9/23(수) 수업부터는 출석 체크 시간에 자리를 비울 경우 출석을 인정해드리지 않을 예정이니 주의하시기 바랍니다.
