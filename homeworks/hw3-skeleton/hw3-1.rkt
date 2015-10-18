@@ -6,7 +6,6 @@
   (lambda (f)
     (define (loop n)
       (if (> n upper) 0
-          1
           (+ (f n) (loop (+ n 1)))))
     (loop lower)
     )
@@ -20,7 +19,7 @@
   )
 
 (define (map f l)
-  (if (null? l) ()
+  (if (null? l) '()
       (cons (f (car l)) (map f (cdr l)))
       )
   )
