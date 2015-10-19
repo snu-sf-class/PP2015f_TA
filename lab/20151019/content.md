@@ -62,7 +62,7 @@ TA [김윤승](http://sf.snu.ac.kr/yoonseung.kim), [박상훈](http://sf.snu.ac.
 
 ![fsm](fsm.png)
 
-이러한 그림이 나타내는 것을 **유한 상태 기계 (finite state machine)**라 부릅니다. 이에 대한 자세한 정보는 여기(http://en.wikipedia.org/wiki/Finite-state_machine)를 참고하세요.
+이러한 그림이 나타내는 것을 **유한 상태 기계 (finite state machine)**라 부릅니다. 이에 대한 자세한 정보는 [여기](http://en.wikipedia.org/wiki/Finite-state_machine)를 참고하세요.
 
 이번 실습에서는 이러한 유한 상태 기계를 구현할 것입니다. 다음 함수들을 구현해보세요. 이 유한 상태 기계의 ```input```, ```output```, 그리고 ```state```는 모두 스트링입니다.
 
@@ -73,4 +73,4 @@ step-fsm: state * input * fsm -> state X output
 run-fsm: state * input list * fsm -> state X output list
 ```
 
-뼈대 코드는 여기(fsm.rkt)에 있습니다. 자판기가 잘 동작하도록 구현해보세요.
+뼈대 코드는 [여기](fsm.rkt)에 있습니다. 자판기가 잘 동작하도록 구현해보세요.
