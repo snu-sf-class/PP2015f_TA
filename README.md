@@ -26,6 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 이번주(10/19, 10/21)도 실습과 강의가 변경됩니다. 수요일 강의실: 302-409
 * [숙제3](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw3.pdf)이 나왔습니다. 뼈대코드는 [여기](homeworks/hw3-skeleton)이고, 10/18일 오후 10시 이후에 약간 수정되었습니다. 자세한 내용은 [hw3_instr](homeworks/hw3-skeleton/hw3_instr.md)을 참고하세요. 기한: 10/25(일) 자정
 * 지각 제출에 대한 규정이 업데이트 되었습니다. [여기](homeworks/instr-hw.md)를 확인하세요.
 * [여기서](https://docs.google.com/spreadsheets/d/1ZNYdz0pdTcGQH9dSImFTuTM_qJxG8KoX3d-V2SwOVbk/edit?usp=sharing) 숙제1 기한 내에 제출받은 파일 목록을 확인하세요.
