@@ -26,6 +26,12 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 숙제 1의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
+  + 이 점수는 테스트 케이스를 이용한 채점만 된 상태인데, 드랍 기간 때문에 점수를 확인하길 원하는 학생이 있어 미리 공지합니다.
+  + 코드를 확인하여 문제 조건을 지키지 않은 경우는 추후 감점될 수 있습니다.
+  + 부정행위 적발(타인 코드 복사)은 학기 말에 합니다.
+  + hw1-raw 탭에서 테스트 실행 결과를 보실 수 있고, 취합된 점수는 hw1 탭에 있습니다.
+  + 붉은 색으로 칠해진 점수는 실제 프로그램 내용 이외의, 포맷 등의 문제로 인해 채점시 오류가 발생한 경우입니다. 수정하여 채점하였으나, 이후로는 주의해주시길 바랍니다.
 * 숙제 3-3의 채점기준을 공지합니다. [클릭](homeworks/hw3-skeleton/hw3_instr.md)
 * 이번주(10/19, 10/21)도 실습과 강의가 변경됩니다. 수요일 강의실: 302-409
 * [숙제3](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw3.pdf)이 나왔습니다. 뼈대코드는 [여기](homeworks/hw3-skeleton)이고, 10/18일 오후 10시 이후에 약간 수정되었습니다. 자세한 내용은 [hw3_instr](homeworks/hw3-skeleton/hw3_instr.md)을 참고하세요. 기한: 10/25(일) 자정
