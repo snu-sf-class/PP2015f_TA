@@ -26,12 +26,11 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 숙제 3-3의 채점기준을 공지합니다. [클릭](homeworks/hw3-skeleton)
 * 이번주(10/19, 10/21)도 실습과 강의가 변경됩니다. 수요일 강의실: 302-409
 * [숙제3](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw3.pdf)이 나왔습니다. 뼈대코드는 [여기](homeworks/hw3-skeleton)이고, 10/18일 오후 10시 이후에 약간 수정되었습니다. 자세한 내용은 [hw3_instr](homeworks/hw3-skeleton/hw3_instr.md)을 참고하세요. 기한: 10/25(일) 자정
 * 지각 제출에 대한 규정이 업데이트 되었습니다. [여기](homeworks/instr-hw.md)를 확인하세요.
-* [여기서](https://docs.google.com/spreadsheets/d/1ZNYdz0pdTcGQH9dSImFTuTM_qJxG8KoX3d-V2SwOVbk/edit?usp=sharing) 숙제1 기한 내에 제출받은 파일 목록을 확인하세요.
-* [숙제2](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw2.pdf)가 나왔습니다. 뼈대코드는 [여기](homeworks/hw2-skeleton)입니다. 기한: 10/18(일) 자정
- + 숙제2-3 관련하여 공지사항을 이슈에 등록하였습니다. 확인 부탁드립니다.
+* [여기서](https://docs.google.com/spreadsheets/d/1ZNYdz0pdTcGQH9dSImFTuTM_qJxG8KoX3d-V2SwOVbk/edit?usp=sharing) 숙제1, 2 기한 내에 제출받은 파일 목록을 확인하세요.
 * 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
  + 출석 체크용 사진 촬영은 쉬는 시간이 끝난 다음 5분 후, 또는 17:30에 이루어집니다.
  + 9/23(수) 수업부터는 출석 체크 시간에 자리를 비울 경우 출석을 인정해드리지 않을 예정이니 주의하시기 바랍니다.
@@ -41,9 +40,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
  + 답변은 조교 또는 학생 누구든 참여하시기를 권장합니다.
 
 ## 실습 ##
-* 실습반이 아래와 같이 배정되었습니다.
- + https://docs.google.com/spreadsheets/d/1EzbIugvGQr2-V16NtcbgCojUSUcok9cUATzQ0fwvelU/edit?usp=sharing
- + 중간고사 이후 실습 시간을 재배정할 예정입니다. (작년의 경우 중간고사 이후 한 반으로 운영이 가능했음)
+* 실습은 10/28일부터 한 반으로 운영합니다. (오후 4:00~, 302동 소프트웨어 실습실)
 * 실습 자료는 [여기](lab/)에서 확인하실 수 있습니다.
 
 ## 숙제 ##
