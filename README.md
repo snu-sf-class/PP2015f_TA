@@ -26,8 +26,8 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 숙제 4와 뼈대코드가 올라왔습니다. 추가정보([hw4_instr.md](homeworks/hw4-skeleton/hw4_instr.md))를 확인해주세요.
 * 3-3의 경우, 채점기 뿐만이 아니라 눈으로 보아 확인이 쉽지 않는, 전체적으로 잘 만들어진 미로를 만들었을 경우에 3점을 드리겠습니다.
-* 3-3 자가채점기가 업로드되었습니다. 여러 번 테스트를 거쳤지만 문제가 발견될 경우 알려주십시오.
 * 1-7 재채점 희망자 조사합니다.
   + 1-7의 문제 조건은 다른 사람이 구현한 1-6에 대해서도 잘 작동해야 하는 것이었지만, 그 조건이 문서에 제대로 명시되어있지 않다는 의견이 있었습니다. 따라서 본인이 구현한 1-6을 사용해 재채점을 하기를 희망하는 분이 있으면 조교 메일로 연락을 주십시오.
   + 다음 주 월요일(10/26)까지 취합하여 결정하겠습니다.
@@ -38,9 +38,6 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
   + 부정행위 적발(타인 코드 복사)은 학기 말에 합니다.
   + hw1-raw 탭에서 테스트 실행 결과를 보실 수 있고, 취합된 점수는 hw1 탭에 있습니다.
   + 붉은 색으로 칠해진 점수는 실제 프로그램 내용 이외의, 포맷 등의 문제로 인해 채점시 오류가 발생한 경우입니다. 수정하여 채점하였으나, 이후로는 주의해주시길 바랍니다.
-* 숙제 3-3의 채점기준을 공지합니다. [클릭](homeworks/hw3-skeleton/hw3_instr.md)
-* 이번주(10/19, 10/21)도 실습과 강의가 변경됩니다. 수요일 강의실: 302-409
-* [숙제3](http://sf.snu.ac.kr/gil.hur/4190.210/15/hws/hw3.pdf)이 나왔습니다. 뼈대코드는 [여기](homeworks/hw3-skeleton)이고, 10/18일 오후 10시 이후에 약간 수정되었습니다. 자세한 내용은 [hw3_instr](homeworks/hw3-skeleton/hw3_instr.md)을 참고하세요. 기한: 10/25(일) 자정
 * 지각 제출에 대한 규정이 업데이트 되었습니다. [여기](homeworks/instr-hw.md)를 확인하세요.
 * [여기서](https://docs.google.com/spreadsheets/d/1ZNYdz0pdTcGQH9dSImFTuTM_qJxG8KoX3d-V2SwOVbk/edit?usp=sharing) 숙제1, 2 기한 내에 제출받은 파일 목록을 확인하세요.
 * 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
