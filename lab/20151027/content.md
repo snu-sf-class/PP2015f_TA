@@ -44,8 +44,8 @@ TA [김윤승](http://sf.snu.ac.kr/yoonseung.kim), [박상훈](http://sf.snu.ac.
 
 복소수에 관하여 모르는 부분이 있다면 아래 위키를 참고하시면 됩니다.
 
-- [Complex number](http://ko.wikipedia.org/wiki/Complex_number)
-- [Polar coordinate system](http://ko.wikipedia.org/wiki/Polar_coordinate_system)
+- [Complex number](http://en.wikipedia.org/wiki/Complex_number)
+- [Polar coordinate system](http://en.wikipedia.org/wiki/Polar_coordinate_system)
 
 
 ### Challenge ###
