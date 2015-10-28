@@ -35,7 +35,7 @@ TA [김윤승](http://sf.snu.ac.kr/yoonseung.kim), [박상훈](http://sf.snu.ac.
 이번 실습에서는 다음의 두 가지 표현방법으로 복소수를 구현합니다:
 
 - 데카르트 좌표계 (Descartes coordinate system): 좌표 평면에서와 같이  ```(x, y)``` 형태로 표현됩니다.
-- 극좌표계 (Polar coordinate system): ```(r, θ)``` 는 길이 ```r``` 과 각도  ```θ``` 를 의미합니다.
+- 극좌표계 (Polar coordinate system): ```(θ, r)``` 는 각도  ```θ```과 길이 ```r```를 의미합니다.
 
 두 표현방법 모두  ```real X real```로 표시됩니다. 따라서 다음과 같이 심볼을 사용하여 구분합시다.
 
