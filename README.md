@@ -26,6 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 이번 주 실습과 강의 순서가 바뀌었습니다. 월(11/02) 실습, 수(11/04) 강의(302-409호)입니다.
 * 숙제 4와 뼈대코드가 올라왔습니다. 추가정보([hw4_instr.md](homeworks/hw4-skeleton/hw4_instr.md))를 확인해주세요.
 * 3-3의 경우, 채점기 뿐만이 아니라 눈으로 보아 확인이 쉽지 않는, 전체적으로 잘 만들어진 미로를 만들었을 경우에 3점을 드리겠습니다.
 * 1-7 재채점 희망자 조사합니다.
