@@ -1,24 +1,19 @@
 # Lab Session, Principles of Programming #
 
-20141029 (Wed) 16:00-17:50
-TA [Jeehoon Kang](http://sf.snu.ac.kr/jeehoon.kang), [Yoonseung Kim](http://sf.snu.ac.kr/yskim)
+20151102 (월) 16:00-17:50
+TA 김윤승, 박상훈
 
-## Applicative programming vs. Imperative programming ##
+## 값 중심 vs. 물건 중심 ##
 
-You have learned *applicative* and *imperative* programming in the
-last class.  In this time we practice on them.
+강의시간에 *값 중심*과 *물건 중심* 프로그래밍에 대해 배우는데요, 이 시간에 각각을 실습해봅시다.
 
 ### Summation ###
 
-You can implement A summation function that sums 0 to `n` in the two
-styles of programming.
+0부터 `n`까지 모두 더하는 프로그램을 각 스타일로 정의해봅시다.
 
-#### Applicative programming ####
+#### 값 중심 ####
 
-The function below is implemented as a recursive function in
-applicative programming style.  Note that all variables (`n`)
-appearing on the execution are **values**: their contents never
-change.
+아래의 함수는 값 중심 프로그래밍 스타일로 구현한 재귀함수입니다. 프로그램에 나오는 `n`은 **값**입니다: 담고 있는 내용은 변하지 않습니다.
 
 ```racket
 (define (sum-a n)
@@ -29,11 +24,9 @@ change.
 (sum-a 10)
 ```
 
-#### Imperative programming ####
+#### 물건 중심 ####
 
-Now in imperative style. The program below has a variable, `sum`,
-whose content changes over the execution.  The content changes many
-times on the execution and it finally becomes a value we want to get.
+아래의 프로그램은 변수 `sum`이 존재합니다. 실행 중간에 변수가 담는 값이 여러 번 바뀔 수 있으며 마지막에는 우리가 원하는 값을 담게 됩니다.
 
 ```racket
 (define sum 0)
