@@ -60,27 +60,7 @@ TA 김윤승, 박상훈
 뼈대코드를 보시고: [skeleton code](fsm_imp.rkt) 지난번의 코드:
 [previous week's skeleton code](../20141022/fsm.rkt) 와 비교해봅시다.
 
-`step-fsm`과 `run-fsm` 를 구현해보세요. 주의할 점은:
-
-- `fsm`과 `state`는 각각 기계와 그것의 상태를 나타냅니다. 이것들은 **값**이 아니라 **물건**입니다. 함수가 실행될 때마다 이들이 담고 있는 값은 바뀔 수 있습니다.
-
-- 기계는 다음 타입을 가지고 있습니다: `((state X input) X (state X
-output)) list`.
-
-- `step-fsm`: (1) traversing all rules of the finite
-state machine, it records the next state and output to `state` and
-`output` using the input state(`input-state`) and the input
-value(`input`); (2) after the traversing it ouputs `output`.
-
-- The execution of `step-fsm`: (1) traversing all rules of the finite
-state machine, it records the next state and output to `state` and
-`output` using the input state(`input-state`) and the input
-value(`input`); (2) after the traversing it ouputs `output`.
-
-- The execution of `run-fsm`: (1) traversing all inputs in `inputs`,
-it executes `step-fsm`.  At that time, the output that is return of
-`step-fsm` is recorded to `output-list`; (2) after the traversing it
-outputs `output-list`.
+`step-fsm`과 `run-fsm` 를 구현해보세요.
 
 ## Environment and Memory ##
 
@@ -92,25 +72,3 @@ Environment는 변수와 location의 map입니다. Memory는 location과 value�
 
 세 번째 env에서, ```y``` 는 어떤 location을 가리키고 이 location은 (```cons```)를 가리킵니다.
 
-### Counter ###
-
-As you learned environment and memory in class and reviewed in lab
-session, let's see an example: [Counter](counter.rkt).
-
-```create-counter``` outputs a function. The function increases
-internally stored ```n``` and returns it. After ```c``` is defined,
-the environment and the memory look like as follows. Note that the
-current environment is pin-pointed. Also note that when a
-function(```c```) becomes a value, the current environment is stored
-in the function value.
-
-![env1](env1.png)
-
-After ```d``` is defined, the environment and the memory look like as
-follows.
-
-![env2](env2.png)
-
-Now you may understand why program runs as commented. Functions
-```c``` and ```d``` assigns different locations to ```n```, so they
-operate separately.
