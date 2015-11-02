@@ -40,10 +40,7 @@ TA 김윤승, 박상훈
 (sum-i 10)
 ```
 
-The function below uses the `for` statement of the racket language.
-Please refer to the
-[manual](http://docs.racket-lang.org/reference/for.html) for more
-deatils.
+아래의 함수는 Racket의 `for`를 사용하였습니다. [manual](http://docs.racket-lang.org/reference/for.html)을 참고하세요.
 
 ```racket
 (set! sum 0)
@@ -56,23 +53,24 @@ deatils.
 (sum-i-for 10)
 ```
 
-#### Finite state machine ####
+#### 유한상태기계 (Finite state machine) ####
 
-Let's re-implement the finite state machine we did in the previous
-weeks with the imperative programming style.
+지난 번에 구현한 유한상태기계를 물건중심으로 구현해봅시다.
 
-See the [skeleton code](fsm_imp.rkt).  Compare it with the
-[previous week's skeleton code](../20141022/fsm.rkt).
+뼈대코드를 보시고: [skeleton code](fsm_imp.rkt) 지난번의 코드:
+[previous week's skeleton code](../20141022/fsm.rkt) 와 비교해봅시다.
 
-Complete the functions `step-fsm` and `run-fsm` that execute the
-finite state machine. Note that:
+`step-fsm`과 `run-fsm` 를 구현해보세요. 주의할 점은:
 
-- `fsm` and `state` represent a finite state machine and its state,
-respectively.  They are some **states**, not **values**, which means
-that their contents can be changed when some functions are executed.
+- `fsm`과 `state`는 각각 기계와 그것의 상태를 나타냅니다. 이것들은 **값**이 아니라 **물건**입니다. 함수가 실행될 때마다 이들이 담고 있는 값은 바뀔 수 있습니다.
 
-- The finite state machine has a type `((state X input) X (state X
+- 기계는 다음 타입을 가지고 있습니다: `((state X input) X (state X
 output)) list`.
+
+- `step-fsm`: (1) traversing all rules of the finite
+state machine, it records the next state and output to `state` and
+`output` using the input state(`input-state`) and the input
+value(`input`); (2) after the traversing it ouputs `output`.
 
 - The execution of `step-fsm`: (1) traversing all rules of the finite
 state machine, it records the next state and output to `state` and
@@ -86,18 +84,13 @@ outputs `output-list`.
 
 ## Environment and Memory ##
 
-Environment is a map from variables to locations. Memory is a map from locations to values. For example (from Professor's slide 3),
+Environment는 변수와 location의 map입니다. Memory는 location과 value의 map입니다. 
 
 ![env-mem](fig-env-mem.png)
 
-in the first environment, ```x``` points to a location and the
-location points to tha value ```1```. Similary for ```y``` to ```2```.
+첫 번째 env에서, ```x``` 는 어떤 location을 가리키고 이 location은 값 ```1```을 가리킵니다.
 
-In the third environment, ```y``` points to a location, and the
-location points to a pair(```cons```), first(```car```) of which
-points to 2 and second(```cdr```) of which points to a location of
-another pair. In the picture, you can see ```x``` in the fourth
-environment points to the same location.
+세 번째 env에서, ```y``` 는 어떤 location을 가리키고 이 location은 (```cons```)를 가리킵니다.
 
 ### Counter ###
 
