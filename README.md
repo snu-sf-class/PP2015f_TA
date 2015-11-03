@@ -26,16 +26,9 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 숙제 1, 2의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
 * 숙제 5와 뼈대코드가 올라왔습니다.
 * 이번 주 실습과 강의 순서가 바뀌었습니다. 월(11/02) 실습, 수(11/04) 강의(302-409호)입니다.
-* 1-7 재채점 희망자 (10/26)까지 취합하였습니다.
-* 숙제 1의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
-  + 이 점수는 테스트 케이스를 이용한 채점만 된 상태인데, 드랍 기간 때문에 점수를 확인하길 원하는 학생이 있어 미리 공지합니다.
-  + 코드를 확인하여 문제 조건을 지키지 않은 경우는 추후 감점될 수 있습니다.
-  + 부정행위 적발(타인 코드 복사)은 학기 말에 합니다.
-  + hw1-raw 탭에서 테스트 실행 결과를 보실 수 있고, 취합된 점수는 hw1 탭에 있습니다.
-  + 붉은 색으로 칠해진 점수는 실제 프로그램 내용 이외의, 포맷 등의 문제로 인해 채점시 오류가 발생한 경우입니다. 수정하여 채점하였으나, 이후로는 주의해주시길 바랍니다.
-* [여기서](https://docs.google.com/spreadsheets/d/1ZNYdz0pdTcGQH9dSImFTuTM_qJxG8KoX3d-V2SwOVbk/edit?usp=sharing) 숙제1, 2 기한 내에 제출받은 파일 목록을 확인하세요.
 * 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
  + 출석 체크용 사진 촬영은 쉬는 시간이 끝난 다음 5분 후, 또는 17:30에 이루어집니다.
  + 9/23(수) 수업부터는 출석 체크 시간에 자리를 비울 경우 출석을 인정해드리지 않을 예정이니 주의하시기 바랍니다.
