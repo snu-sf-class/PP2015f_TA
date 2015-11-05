@@ -26,9 +26,8 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 숙제 5-2 selfgrader에 수정이 있었습니다. 수정사항을 확인해주세요.
 * 숙제 1, 2의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
-* 숙제 5와 뼈대코드가 올라왔습니다.
-* 이번 주 실습과 강의 순서가 바뀌었습니다. 월(11/02) 실습, 수(11/04) 강의(302-409호)입니다.
 * 수업/실습/과제 관련 질문의 경우 이 GitHub 페이지의 issues 게시판을 이용할 것입니다.
  + GitHub에 계정이 없으신 수강생은 지금 만들어두시면 앞으로 도움이 될 것입니다. 
  + 답변은 조교 또는 학생 누구든 참여하시기를 권장합니다.
