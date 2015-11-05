@@ -6,7 +6,7 @@
 (define safe-car
   (lambda (l)
     (case-list
-     (lambda () 'empty-list)
+     (lambda (u) 'empty-list)
      (lambda (h t) h)
      l))
   )
@@ -14,7 +14,7 @@
 (define safe-cdr
   (lambda (l)
     (case-list
-     (lambda () 'empty-list)
+     (lambda (u) 'empty-list)
      (lambda (h t) t)
      l))
   )
