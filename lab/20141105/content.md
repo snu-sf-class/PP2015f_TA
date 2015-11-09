@@ -26,7 +26,7 @@ environment와 memory에 대해 배웠으므로, 이제 예제를 살펴봅시�
 
 ![env1](env1.png)
 
-`d`가 ```d``` 정의된 후의 environment와 memory는 다음과 같습니다.
+`d`가 정의된 후의 environment와 memory는 다음과 같습니다.
 
 ![env2](env2.png)
 
@@ -35,5 +35,4 @@ environment와 memory에 대해 배웠으므로, 이제 예제를 살펴봅시�
 
 ## Mutable Lists ##
 
-이 문서를 보고 
-[document](http://docs.racket-lang.org/reference/mpairs.html) 여러 가지를 실험해보세요.
+이 [문서](http://docs.racket-lang.org/reference/mpairs.html)를 보고 여러 가지를 실험해보세요.
