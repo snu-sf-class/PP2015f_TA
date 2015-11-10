@@ -17,7 +17,7 @@
 
 
 ;;; interfaces
-(define (equal f g) ; equal: form * form -> form
+(define (equal f g) ; equal: form * form -> bool
   'TODO)
 
 (define (size f) ; size: form -> int
