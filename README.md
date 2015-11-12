@@ -26,8 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
-* 이번 주도 강의/실습 순서가 바뀝니다. 11/9(월) 실습, 11/11(수) 강의(302-409호)입니다.
-* 숙제 5-2 selfgrader에 수정이 있었습니다. 수정사항을 확인해주세요.
+* 숙제 6이 올라왔습니다. 기한: 11/22(일) 자정
 * 숙제 1, 2의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
 * 수업/실습/과제 관련 질문의 경우 이 GitHub 페이지의 issues 게시판을 이용할 것입니다.
  + GitHub에 계정이 없으신 수강생은 지금 만들어두시면 앞으로 도움이 될 것입니다. 
