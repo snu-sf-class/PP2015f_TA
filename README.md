@@ -26,6 +26,9 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 숙제 1, 2의 [모범답안](homeworks/)을 만들어보았습니다.
+  + 채점기는 모두 통과합니다. 다만 버그가 있을 가능성도 있습니다.
+  + 늦게 제출할 경우, 이 코드를 참고는 하실 수 있지만 구조를 직접 짜시지 않으면 저희의 code clone detector에 걸릴 가능성이 높습니다.
 * 숙제 6이 올라왔습니다. 기한: 11/22(일) 자정
 * 숙제 1, 2의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
 * 수업/실습/과제 관련 질문의 경우 이 GitHub 페이지의 issues 게시판을 이용할 것입니다.
