@@ -21,9 +21,10 @@ OCaml 프로그래밍하기
   
   ocaml commonGrade.cmo hw6_2.cmo hw6_2_selfgrader.ml
   ```
-- 또는 아래와 같이 하셔도 됩니다.
+  
+- 또는 `make`를 이용한다. 가령 2번 과제를 채점하려면 아래 명령을 실행한다.
   ```
-  make 2    # 6_2번 과제 채점
+  make 2
   ```
   
 OCaml 도움 링크
