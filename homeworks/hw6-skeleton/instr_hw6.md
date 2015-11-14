@@ -21,6 +21,10 @@ OCaml 프로그래밍하기
   
   ocaml commonGrade.cmo hw6_2.cmo hw6_2_selfgrader.ml
   ```
+- 또는 아래와 같이 하셔도 됩니다.
+  ```
+  make 2    # 6_2번 과제 채점
+  ```
   
 OCaml 도움 링크
 - Tutorial: https://github.com/snu-sf/course-pp-2014/blob/master/lab/20141112/Ocaml_tutorial_eng.pdf
