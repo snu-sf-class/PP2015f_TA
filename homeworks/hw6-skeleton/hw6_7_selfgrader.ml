@@ -2,7 +2,7 @@ open CommonGrade
 open Hw6_7
 
 let p1 = 
-  SEQUENCE (ASSIGN 1,
+  SEQUENCE (ASSIGN (NUM 1),
 	    REPEAT
 	      (CHOICE (EQ (NUM 1, ASSIGN (ADD (VAR,NUM 1))),
 		       NEQ (NUM 1, ASSIGN (SUB (VAR,NUM 1))))
