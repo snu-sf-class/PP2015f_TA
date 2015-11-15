@@ -4,5 +4,5 @@
 (require "common-grade.rkt")
 (require "hw6-1.rkt")
 
-(output (lambda () (equal? 15 (memo-ways 4 2))))
+(sgoutput (lambda () (equal? 15 (memo-ways 4 2))))
 
