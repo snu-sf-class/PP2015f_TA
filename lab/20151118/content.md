@@ -102,7 +102,7 @@ tree.ml을 숙지한 후, [list.ml](list.ml)을 완성시켜보세요.
 * 채점에 사용되는 OCaml 버전은 4.02입니다.
 * [Download](http://caml.inria.fr/download.en.html) 
 * 리눅스 사용자의 경우, Emacs/Vim + make를 사용하시면 됩니다.
-  + Emacs 사용자의 경우, 유용한 플러그인을 소개합니다.
+  + Emacs 사용자의 경우, 유용한 플러그인을 소개합니다:
     [Tuareg](http://www.emacswiki.org/emacs/TuaregMode)
 * 또한, [Eclipse](http://eclipse.org) +
   [OcaIDE](http://www.algo-prog.info/ocaide/) 역시 좋은 방법입니다.
