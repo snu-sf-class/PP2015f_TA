@@ -1,19 +1,22 @@
-# Lab Session, Principles of Programming #
+# 프로그래밍의 원리: 실습 #
 
-20141119 (Wed) 16:00-17:50
-TA [Jeehoon Kang](http://sf.snu.ac.kr/~jeehoon.kang),
-[Yoonseung Kim](http://sf.snu.ac.kr/~yoonseung.kim)
+2015.11.18(수) 16:00-17:50
 
-We are going to learn the advantage of static typing.
-You will use OCaml in this session.
+TA [김윤승](http://sf.snu.ac.kr/yoonseung.kim), [박상훈](http://sf.snu.ac.kr/sanghoon.park)
 
-### Type Error ###
+### 실습 안내 ###
 
-Let's see [treeWrong.rkt](treeWrong.rkt) first.
-It contains a binary tree structure in which integer values are stored
-only in leaves. 
+* 실습실 컴퓨터에 개인 계정이 없으신 경우, id: pp2015로 로그인 가능합니다. 비밀번호는 실습 시간에 조교가 알려드립니다.
+* 실습 내용을 설명해드린 후에는 실습에 참여하지 않으셔도 됩니다.
+* 실습이나 과제와 관련하여 모르는 내용은 언제든 질문해주시면 됩니다.
+ 
 
-If you try to run the code, you will see this error message:
+### 타입 에러 ###
+
+우선 [treeWrong.rkt](treeWrong.rkt) 예제를 살펴보세요.
+이 파일은 정수가 잎사귀들에만 저장되어 있는 이진 트리 구조를 나타냅니다.
+
+하지만 이 코드를 실행하면, 다음과 같은 에러가 발생합니다:
 
 ```
 string-append: contract violation
@@ -29,19 +32,18 @@ string-append: contract violation
    /Users/idiothinker/Works/pp-material/20131106/treeWrong.rkt: [running body]
 ```
 
-This message says, ```0``` is given where a string is expected.
-Correct this code to make it run without errors.
-(Hint: the problem is in ```(leaf-value t)``` at the 35th line.
+이 에러는, 스트링이 있어야 할 자리에 ```0```이 있다는 에러입니다. 이 코드가 잘 동작하도록 수정해보세요.
+(Hint: 문제가 되는 지점은 35번째 라인의 ```(leaf-value t)``` 부분입니다.)
 
 
 ### Static Typing ###
 
-From the example above, you must have complaints to Racket.
+위의 예제를 통해, 우리는 Racket 언어에 불편한 점이 있다는 것을 알 수 있습니다.
 
-* This kind of error is too obvious.
-* It is obvious in the sense that ```pprint-tree``` should return a ```string```, but obvious ```(leaf-value t)``` is not a string.
-* We want an error message like this: ```type error: (leaf-value t)
-  is an int, but is expected to be a string.```
+* 이러한 종류의 에러는 너무나 명확합니다.
+* ```pprint-tree```는 반드시 ```string```을 리턴해야 하는데, 명백하게 ```(leaf-value t)``` 는 스트링이 아닙니다.
+* 이러한 에러메시지가 발생한다면 좀 더 직관적일 것입니다: 
+     ```type error: (leaf-value t) is an int, but is expected to be a string.```
 
 The solution is, to use a language which supports static typing!
 So we are going to use OCaml.
