@@ -26,6 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 이번 주 수요일(11/18)은 실습 진행합니다. (302-311-1 소프트웨어 실습실) 다음 주는 교수님 강의 2번 합니다.
 * 숙제 1, 2의 [모범답안](homeworks/)을 만들어보았습니다.
   + 채점기는 모두 통과합니다. 다만 버그가 있을 가능성도 있습니다.
   + 늦게 제출할 경우, 이 코드를 참고는 하실 수 있지만 구조를 직접 짜시지 않으면 저희의 code clone detector에 걸릴 가능성이 높습니다.
