@@ -22,6 +22,11 @@ OCaml 프로그래밍하기
   ocaml commonGrade.cmo hw6_2.cmo hw6_2_selfgrader.ml
   ```
   
+- 또는 `make`를 이용한다. 가령 2번 과제를 채점하려면 아래 명령을 실행한다.
+  ```
+  make 2
+  ```
+  
 OCaml 도움 링크
 - Tutorial: https://github.com/snu-sf/course-pp-2014/blob/master/lab/20141112/Ocaml_tutorial_eng.pdf
 - 리눅스/맥 OS에서 opam으로 OCaml 설치하기: https://ropas.snu.ac.kr/phpbb/viewtopic.php?t=4649&highlight=ocaml
