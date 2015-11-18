@@ -10,6 +10,6 @@ let p1 =
 
 let p2 = REPEAT (ASSIGN (ADD (VAR,NUM 1)))
 
-let _ = output (fun () -> (exeval p1 -1) = [1; 2])
+let _ = output (fun () -> (exeval p1 (-1)) = [1; 2])
 
 let _ = output (fun () -> (exeval p2 1) = [1; 2; 3; 4; 5])
