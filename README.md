@@ -26,6 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 6-5 자가채점기가 보완되었습니다. 이제 다양한 수식에 대해서 테스트해보실 수 있습니다.
 * 과제 6-1, 6-7 채점기 버그 수정 및 make 사용자를 위한 채점기용 makefile을 추가하였습니다. - (seojangho님 및 hyunmin-personal님의 기여)
 * 교수님 강의는 11/23, 11/25, 12/14, 12/16 4번 진행할 예정입니다.
 * 이번 주 수요일(11/18)은 실습 진행합니다. (302-311-1 소프트웨어 실습실) 다음 주는 교수님 강의 2번 합니다.
