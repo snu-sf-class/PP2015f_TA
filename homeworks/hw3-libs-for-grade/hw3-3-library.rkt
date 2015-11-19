@@ -1,0 +1,122 @@
+; maze (example)
+; created by Jin
+; modified by Jee
+; modified by Yoonseung: cells are square
+; modified by Yoonseung again: cells are hexagon
+
+#lang racket
+
+(provide init-maze open-s open-n open-se open-sw open-ne open-nw maze-pp)
+
+(define (init-maze n m)
+  (define (make-list elem cnt)
+    (if (= cnt 0)
+        '()
+        (cons elem (make-list elem (- cnt 1)))))
+  (cons (make-list (make-list (make-list #f 7) m) n) (cons n m)))
+
+(define (change-list3 x y z lst elem)
+  (define (change-list2 x y lst elem)
+    (define (change-list1 x lst elem)
+      (if (= x 0)
+          (cons elem (cdr lst))
+          (cons (car lst) (change-list1 (- x 1) (cdr lst) elem))))
+    (if (= x 0)
+        (cons (change-list1 y (car lst) elem) (cdr lst))
+        (cons (car lst) (change-list2 (- x 1) y (cdr lst) elem))))
+  (if (= x 0)
+      (cons (change-list2 y z (car lst) elem) (cdr lst))
+      (cons (car lst) (change-list3 (- x 1) y z (cdr lst) elem))))
+            
+(define (open i j z maze)
+  (define n (cadr maze))
+  (define m (cddr maze))
+  (define lst (car maze))
+  (if (and (<= 0 i) (< i n) (<= 0 j) (< j m) (< 0 z) (<= z 6))
+      (cons (change-list3 i j z lst #t) (cons n m))
+      maze))
+
+(define (det-next-i i j n)
+  (if (even? j)
+      (if (= n 0) i (+ i 1))
+      (if (= n 0) (- i 1) i)
+      ))
+; order: (n ne se s sw nw)
+(define (open-n i j maze) (open (- i 1) j 4 (open i j 1 maze)))
+(define (open-ne i j maze) (open (det-next-i i j 0) (+ j 1) 5 (open i j 2 maze)))
+(define (open-se i j maze) (open (det-next-i i j 1) (+ j 1) 6 (open i j 3 maze)))
+(define (open-s i j maze) (open (+ i 1) j 1 (open i j 4 maze)))
+(define (open-sw i j maze) (open (det-next-i i j 1) (- j 1) 2 (open i j 5 maze)))
+(define (open-nw i j maze) (open (det-next-i i j 0) (- j 1) 3 (open i j 6 maze)))
+
+;(define (open-ne x y maze)
+;  (if (odd? x)
+;      (open (+ x 1) (- y 1) 4 (open x y 1 maze))
+;      (open (+ x 1) y 4 (open x y 1 maze))))
+;
+;(define (open-nw x y maze)
+;  (if (odd? x)
+;      (open (- x 1) (- y 1) 2 (open x y 5 maze))
+;      (open (- x 1) y 2 (open x y 5 maze))))
+;
+;(define (open-se x y maze)
+;  (if (odd? x)
+;      (open (+ x 1) y 5 (open x y 2 maze))
+;      (open (+ x 1) (+ y 1) 5 (open x y 2 maze))))
+;
+;(define (open-sw x y maze)
+;  (if (odd? x)
+;      (open (- x 1) y 1 (open x y 4 maze))
+;      (open (- x 1) (+ y 1) 1 (open x y 4 maze))))
+
+(define (all2 n m)
+  (define (all n)
+    (if (= n 0)
+        '()
+        (cons (- n 1) (all (- n 1)))))
+  (define (product l1 l2)
+    (if (null? l1)
+        '()
+        (append (map (lambda (x) (cons (car l1) x)) l2) (product (cdr l1) l2))))
+  (product (all n) (all m)))
+
+(define (maze-pp maze i j)
+  (define sz 2)
+  (define n (cadr maze))
+  (define m (cddr maze))
+  (define lst (car maze))
+  (define file (open-output-file (string-append "hw3-3-" (number->string i) (number->string j) ".ps") #:exists 'replace))
+
+  (define (draw co)
+    (define y (car co))
+    (define x (cdr co))
+    (define elem (list-ref (list-ref lst y) x))
+    
+    (define (draw-line x y x1 y1 x2 y2)
+      (define X (* 2.4 x))
+      (define Y (- (* 2.8 y) (* (modulo x 2) 1.4)))
+      (begin (display (+ X x1) file) (display " " file) (display (+ Y y1) file) (display " moveto " file)
+             (display (+ X x2) file) (display " " file) (display (+ Y y2) file) (display " lineto\n" file)))
+    (begin
+      (if (list-ref elem 1) (void) (draw-line x y 1   0   2.4 0))
+      (if (list-ref elem 2) (void) (draw-line x y 2.4 0   3.4 1.4))
+      (if (list-ref elem 3) (void) (draw-line x y 3.4 1.4 2.4 2.8))
+      (if (list-ref elem 4) (void) (draw-line x y 2.4 2.8 1   2.8))
+      (if (list-ref elem 5) (void) (draw-line x y 1   2.8 0   1.4))
+      (if (list-ref elem 6) (void) (draw-line x y 0   1.4 1   0))
+    ))
+  (begin
+    (display "%!PS\n" file)
+    (display "%%Creator: Jin Yung Kim\n" file)
+    (display "[7 0 0 -7 20 700] concat\n" file)
+    (display "0.05 setlinewidth\n" file)
+    (for-each draw (all2 n m))
+    (display "stroke\n" file)
+    (close-output-port file)
+    (void)
+  ))
+
+; test 
+;(define m0 (init-maze 3 5))
+;(define m1 (open-se 1 3 m0))
+;(maze-pp m1)
