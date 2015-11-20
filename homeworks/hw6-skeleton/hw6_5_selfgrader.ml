@@ -15,7 +15,7 @@ let rec eval_xy (exp:ae) (env:float list): float =
 		| h::t -> (eval_xy h env) *. (eval_xy (TIMES t) env))
   | SUM l -> (match l with
 		| [] -> 0.0
-		| h::t -> (eval_xy h env) +. (eval_xy (TIMES t) env))
+		| h::t -> (eval_xy h env) +. (eval_xy (SUM t) env))
 
 let env1 = [1.0; 2.0; 3.0]
 
