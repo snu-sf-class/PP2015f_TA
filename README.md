@@ -26,6 +26,9 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
+* 11/25(수) 강의실은 1시간씩, 순서대로 301-106호, 301-105호입니다.
+* Challenge 뼈대코드가 올라왔습니다.
+  + 특별한 내용이 없으므로 이미 시작하신 분들도 문제 없을 것입니다.
 * 6-5 새 자가채점기 오타가 수정되었습니다. (11월 20일 정오)
 * 숙제 1, 2, 3의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
   + 3번 채점에 쓰인 library들을 [이 곳](homeworks/hw3-libs-for-grade)에 올려두었으니 자신의 코드에서 잘 동작하는지 확인해보세요.
