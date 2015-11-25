@@ -22,5 +22,5 @@
 
 (define (is-subset? rs1 rs2) 
   (cond ((null? (cdr rs1)) #t) 
-        ((is-member? (cadr rs1) rs2) (is-subset? (cddr rs1) rs2)) 
+        ((is-member? (cadr rs1) rs2) (is-subset? (cons 'set (cddr rs1)) rs2)) 
         (else #f))) 
