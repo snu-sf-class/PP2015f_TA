@@ -34,6 +34,9 @@ let myeval (exp_string: string): value_t =
   let exp = Parser.parse lexer in
   ...
 
+let myeval_memo (exp_string: string): value_t =
+  ...
+
 (* test like this:
 let exp1 = "(if #t (car (cons 1 2)) 4)"
 let v = myeval exp1
