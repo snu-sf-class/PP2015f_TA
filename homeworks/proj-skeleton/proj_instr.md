@@ -11,4 +11,6 @@
   + 리눅스 등 make를 사용할 수 있는 환경에서는 쉘에서 `make`를 하면 컴파일이 됩니다.
   + 테스트는 `make test`를 하면 됩니다.
   + `make clean`을 실행하면 컴파일 부산물들이 제거됩니다.
+  + make를 사용할 수 없는 환경의 경우, syntax.ml, parser.ml, lexer.mll, lexer.ml, proj.ml 을 컴파일하시면 됩니다.
+    * lexer.mll로부터, ocamllex를 이용해 ml파일을 생성합니다. Makefile의 내용을 참고해주세요.
 - 현재 self-grader의 내용이 부실합니다. 저도 여러 테스트를 추가할 계획이고, 각자 테스트를 만들어 공유해도 좋습니다.
