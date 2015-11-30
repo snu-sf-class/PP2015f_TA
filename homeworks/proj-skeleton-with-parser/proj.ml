@@ -1,5 +1,6 @@
 open Syntax
 
+exception RUNTIME_EXCEPTION of string
 exception NOT_IMPLEMENTED
 exception UNCAUGHT_EXCEPTION
 
