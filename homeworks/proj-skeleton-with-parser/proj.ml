@@ -10,7 +10,7 @@ type value_t =
   | BOOL of bool
   | NULL
   | CLOS of ... (* closure = lambda value *)
-  | PCLOS of ... (* closure of pure lambda value *)
+  | CLOS_MEM of ... (* closure of memoizing lambda value *)
   | PAIR of ...
   | MPAIR of ...
 
@@ -23,7 +23,7 @@ let rec value_to_string (v:value_t): string =
   | BOOL b -> if b then "#t" else "#f"
   | NULL -> "'()"
   | CLOS _ -> "#<procedure>"
-  | PCLOS _ -> "#<pure-procedure>"
+  | CLOS_MEM _ -> "#<procedure-memo>"
   | PAIR (a, b) -> "(cons " ^ (value_to_string a) ^ " " ^ (value_to_string b) ^ ")"
   | MPAIR (a, b) -> "(mcons ? ?)"
 

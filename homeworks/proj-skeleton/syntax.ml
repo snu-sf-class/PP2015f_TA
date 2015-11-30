@@ -32,8 +32,6 @@ type exp_t =
   | MCDR of exp_t
   | SETMCAR of (exp_t * exp_t)
   | SETMCDR of (exp_t * exp_t)
-  (* pure lambda - memoization *)
-  | PLAMBDA of (var_t list * exp_t)
   (* exception *)
   | RAISE of exp_t
   | HANDLERS of (hdl_binding_t list * exp_t)
@@ -76,7 +74,6 @@ let rec exp_to_string (exp:exp_t): string =
   | MCDR e1 -> "(mcdr "^(exp_to_string e1)^")"
   | SETMCAR (e1, e2) -> "(set-mcar! "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
   | SETMCDR (e1, e2) -> "(set-mcdr! "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
-  | PLAMBDA (vl, e1) -> "(plambda ("^(varlist_to_string vl)^") "^(exp_to_string e1)^")"
   | RAISE e1 -> "(raise "^(exp_to_string e1)^")"
   | HANDLERS (hl, e1) -> "(with-handlers ("^(hdl_to_string hl)^") "^(exp_to_string e1)^")"
 

@@ -17,7 +17,6 @@ type token =
   | CAR
   | CDR
   | LAMBDA
-  | PLAMBDA
   | LET
   | LETREC
   | EQ
@@ -50,7 +49,6 @@ let token_printer = function
   | CAR -> "car"
   | CDR -> "cdr"
   | LAMBDA -> "lambda"
-  | PLAMBDA -> "plambda"
   | LET -> "let"
   | LETREC -> "letrec"
   | EQ -> "="
