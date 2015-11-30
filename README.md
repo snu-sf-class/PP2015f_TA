@@ -26,7 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement ##
-* Project의 뼈대코드가 11/30(월) 오전 10시 30분에 수정되었습니다. 수정내용: Syntax에서 plambda삭제. value에 PCLOS를 CLOS-MEM 으로 수정
+* Project의 뼈대코드가 11/30(월) 오전 10시 38분에 수정되었습니다. 수정내용: Syntax에서 plambda삭제. value에 PCLOS를 CLOS-MEM 으로 수정
 * Project의 [뼈대코드](homeworks/proj-skeleton)가 올라왔습니다. [proj-instruction](homeworks/proj-skeleton/proj_instr.md)를 꼭 읽고 진행해주세요.
 * 11/30(월)은 휴강, 12/2(수)는 기존과 같이 실습을 진행합니다.
 * 숙제 3-2 여섯 분의 점수가 갱신되었습니다. 채점용 library에 버그가 있었습니다.
