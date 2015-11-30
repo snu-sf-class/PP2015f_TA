@@ -1,6 +1,7 @@
 # Project #
 
 ## 수정사항 ##
+- 11/30, 10:38 = `RUNTIME_EXCEPTION` 추가
 - 11/30, 10:30 = syntax에서 `plambda` 삭제, value에 `PCLOS` -> `CLOS_MEM` 으로 이름 수정
 
 ## 설명 ##
