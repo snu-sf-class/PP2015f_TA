@@ -1,5 +1,8 @@
 # Project #
 
+## 수정사항 ##
+- 11/30, 10:30 = syntax에서 `plambda` 삭제, value에 `PCLOS` -> `CLOS_MEM` 으로 이름 수정
+
 ## 설명 ##
 - parser.ml 에서 파서를 구현합니다.
   + lexer () 를 실행할 때마다 순서대로 token이 나옵니다.
