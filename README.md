@@ -25,7 +25,8 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Issues Board](https://github.com/snu-sf-class/PP2015f_TA/issues)
 * [Lab Materials](/lab)
 
-## Announcement ##
+## Announcement #
+* set!는 프로젝트에서 뺍니다. 곧 다시 수정해서 올리겠습니다.
 * Project의 뼈대코드가 11/30(월) 오전 10시 38분에 수정되었습니다. 수정내용: Syntax에서 plambda삭제. value에 PCLOS를 CLOS-MEM 으로 수정
 * Project의 [뼈대코드](homeworks/proj-skeleton)가 올라왔습니다. [proj-instruction](homeworks/proj-skeleton/proj_instr.md)를 꼭 읽고 진행해주세요.
 * 11/30(월)은 휴강, 12/2(수)는 기존과 같이 실습을 진행합니다.
