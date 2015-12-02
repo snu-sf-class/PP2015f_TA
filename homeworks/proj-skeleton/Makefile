@@ -1,6 +1,6 @@
 all: proj.cmo
 
-proj.cmo: lexer.cmo
+proj.cmo: proj.ml lexer.cmo
 	ocamlc -c proj.ml
 
 lexer.cmo: lexer.ml parser.cmo
@@ -18,5 +18,5 @@ syntax.cmo: syntax.ml
 clean:
 	rm *.cmo *.cmi lexer.ml
 
-test: proj.cmo
+test: proj_selfgrader.ml proj.cmo
 	ocaml syntax.cmo parser.cmo lexer.cmo proj.cmo proj_selfgrader.ml
