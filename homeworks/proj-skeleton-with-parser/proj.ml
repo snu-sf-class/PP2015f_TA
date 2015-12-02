@@ -15,6 +15,7 @@ type value_t =
   | PAIR of ...
   | MPAIR of ...
   | VOID	       
+  | UNDEF
 
 (* If value_to_string does not work well for your code, *)
 (*  adjust this function manually to make it work *)
@@ -29,6 +30,7 @@ let rec value_to_string (v:value_t): string =
   | PAIR (a, b) -> "(cons " ^ (value_to_string a) ^ " " ^ (value_to_string b) ^ ")"
   | MPAIR (a, b) -> "(mcons ? ?)"
   | VOID -> "#<void>"
+  | UNDEF -> "#<undef>"
 
 let myeval (exp_string: string): value_t =
   let lexbuf = Lexing.from_string exp_string in
