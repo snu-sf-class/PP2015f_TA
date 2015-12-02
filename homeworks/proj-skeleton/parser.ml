@@ -22,7 +22,6 @@ type token =
   | EQ
   | LT
   | GT
-  | SET
   | MCONS
   | MCAR
   | MCDR
@@ -54,7 +53,6 @@ let token_printer = function
   | EQ -> "="
   | LT -> "<"
   | GT -> ">"
-  | SET -> "set!"
   | MCONS -> "mcons"
   | MCAR -> "mcar"
   | MCDR -> "mcdr"
@@ -67,5 +65,6 @@ let token_printer = function
 
 (* You can get a token by calling `lexer` function like this example: *)
 (* let token = lexer () in ... *)
+
 let parse (lexer: unit -> token): Syntax.exp_t =
   ...

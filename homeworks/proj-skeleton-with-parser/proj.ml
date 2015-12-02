@@ -14,6 +14,7 @@ type value_t =
   | CLOS_MEM of ... (* closure of memoizing lambda value *)
   | PAIR of ...
   | MPAIR of ...
+  | VOID	       
 
 (* If value_to_string does not work well for your code, *)
 (*  adjust this function manually to make it work *)
@@ -27,7 +28,7 @@ let rec value_to_string (v:value_t): string =
   | CLOS_MEM _ -> "#<procedure-memo>"
   | PAIR (a, b) -> "(cons " ^ (value_to_string a) ^ " " ^ (value_to_string b) ^ ")"
   | MPAIR (a, b) -> "(mcons ? ?)"
-
+  | VOID -> "#<void>"
 
 let myeval (exp_string: string): value_t =
   let lexbuf = Lexing.from_string exp_string in

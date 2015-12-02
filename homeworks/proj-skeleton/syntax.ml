@@ -26,7 +26,6 @@ type exp_t =
   | LT of (exp_t * exp_t)
   | GT of (exp_t * exp_t)
   (* mutable *)
-  | SET of (var_t * exp_t)
   | MCONS of (exp_t * exp_t)
   | MCAR of exp_t
   | MCDR of exp_t
@@ -68,7 +67,6 @@ let rec exp_to_string (exp:exp_t): string =
   | EQ (e1, e2) -> "(- "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
   | LT (e1, e2) -> "(< "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
   | GT (e1, e2) -> "(> "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
-  | SET (x, e1) -> "(set! "^x^" "^(exp_to_string e1)^")"
   | MCONS (e1, e2) -> "(mcons "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
   | MCAR e1 -> "(mcar "^(exp_to_string e1)^")"
   | MCDR e1 -> "(mcdr "^(exp_to_string e1)^")"

@@ -18,16 +18,14 @@
 	  | "car" 	   { CAR }
 	  | "cdr"	   { CDR }
 	  | "lambda" 	   { LAMBDA }
-	  | "plambda"	   { PLAMBDA }
 	  | "let"	   { LET }
 	  | "letrec"	   { LETREC }
 	  | '='		   { EQ }
 	  | '<'		   { LT }
 	  | '>'		   { GT }
-	  | "set!"	   { SET }
 	  | "mcons"	   { MCONS }
 	  | "mcar"	   { MCAR }
-	  | "mcar"	   { MCDR }
+	  | "mcdr"	   { MCDR }
 	  | "set-mcar!"	   { SETMCAR }
 	  | "set-mcdr!"	   { SETMCDR }
 	  | "raise"	   { RAISE }
