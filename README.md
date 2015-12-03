@@ -26,14 +26,14 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement #
+* 숙제 4의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
+  + 혹시 지금까지 메일로 보낸 문의에 답변이 오지 않았거나, 과제 관련 클레임이 반영되지 않은 경우 다시 메일을 주세요.
 * Project의 [뼈대코드](homeworks/proj-skeleton)는 12/02(수) 오후 10시 40분에 업로드한 것이 안정된 버전입니다. [proj-instruction](homeworks/proj-skeleton/proj_instr.md)를 꼭 읽고 진행해주세요.
 * 11/30(월)은 휴강, 12/2(수)는 기존과 같이 실습을 진행합니다.
 * 숙제 3-2 여섯 분의 점수가 갱신되었습니다. 채점용 library에 버그가 있었습니다.
   + 2009-11604, 2010-11162, 2011-11749, 2012-10097, 2014-16477, 2014-18935
 * 숙제 7,8의 뼈대코드가 공개되었습니다. 각각의 instr을 잘 읽고 시작해주세요.
 * 6-5 새 자가채점기 오타가 수정되었습니다. (11월 20일 정오)
-* 숙제 1, 2, 3의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
-  + 3번 채점에 쓰인 library들을 [이 곳](homeworks/hw3-libs-for-grade)에 올려두었으니 자신의 코드에서 잘 동작하는지 확인해보세요.
 * 과제 6-1, 6-7 채점기 버그 수정 및 make 사용자를 위한 채점기용 makefile을 추가하였습니다. - (seojangho님 및 hyunmin-personal님의 기여)
 * 교수님 강의는 11/23, 11/25, 12/14, 12/16 4번 진행할 예정입니다.
 * 숙제 1, 2의 [모범답안](homeworks/)을 만들어보았습니다.
