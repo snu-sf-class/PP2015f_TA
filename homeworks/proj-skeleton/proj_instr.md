@@ -21,5 +21,5 @@
     * lexer.mll로부터, ocamllex를 이용해 ml파일을 생성합니다. Makefile의 내용을 참고해주세요.
 - 현재 self-grader의 내용이 부실합니다. 저도 여러 테스트를 추가할 계획이고, 각자 테스트를 만들어 공유해도 좋습니다. 이후 테스트가 추가되면 `proj_selfgrader.ml`에서 추가된 코드 부분만 복사하시면 됩니다.
 - 제출 칸이 3개 열려있는데, 1번에 challenge.rkt 파일, 2, 3번에 parser.ml과 proj.ml을 넣어주세요
-- 예외처리의 경우, `with-handler`는 Racket 코드 내에서 `raise`를 사용한 경우만 처리해도 좋습니다. 이외의 실행 중 에러는 OCaml 예외(`RUNTIME_EXCEPTION`)로 처리해도 좋습니다.
+- 예외처리의 경우, `with-handlers`는 Racket 코드 내에서 `raise`를 사용한 경우만 처리해도 좋습니다. 이외의 실행 중 에러는 OCaml 예외(`RUNTIME_EXCEPTION`)로 처리해도 좋습니다.
 - `set-mcar!` 등 리턴 값이 void인 경우는 `VOID` 값을 리턴하게 하면 됩니다.
