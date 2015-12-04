@@ -26,6 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement #
+* 숙제 3-3에서 `maze-pp`를 과제에 사용했기 때문에 점수가 0점이 나온 경우는 다시 채점해드리고 있습니다.
 * 숙제 4의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
   + 혹시 지금까지 메일로 보낸 문의에 답변이 오지 않았거나, 과제 관련 클레임이 반영되지 않은 경우 다시 메일을 주세요.
 * Project의 [뼈대코드](homeworks/proj-skeleton)는 12/02(수) 오후 10시 40분에 업로드한 것이 안정된 버전입니다. [proj-instruction](homeworks/proj-skeleton/proj_instr.md)를 꼭 읽고 진행해주세요.
