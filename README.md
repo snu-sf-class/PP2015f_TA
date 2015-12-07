@@ -26,6 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement #
+* 실습은 끝났습니다. 강의는 12/14, 12/16 2번 남아있습니다.
 * 숙제 3-3에서 `maze-pp`를 과제에 사용했기 때문에 점수가 0점이 나온 경우는 다시 채점해드리고 있습니다.
 * 숙제 4의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
   + 혹시 지금까지 메일로 보낸 문의에 답변이 오지 않았거나, 과제 관련 클레임이 반영되지 않은 경우 다시 메일을 주세요.
@@ -36,7 +37,6 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * 숙제 7,8의 뼈대코드가 공개되었습니다. 각각의 instr을 잘 읽고 시작해주세요.
 * 6-5 새 자가채점기 오타가 수정되었습니다. (11월 20일 정오)
 * 과제 6-1, 6-7 채점기 버그 수정 및 make 사용자를 위한 채점기용 makefile을 추가하였습니다. - (seojangho님 및 hyunmin-personal님의 기여)
-* 교수님 강의는 11/23, 11/25, 12/14, 12/16 4번 진행할 예정입니다.
 * 숙제 1, 2의 [모범답안](homeworks/)을 만들어보았습니다.
   + 채점기는 모두 통과합니다. 다만 버그가 있을 가능성도 있습니다.
   + 늦게 제출할 경우, 이 코드를 참고는 하실 수 있지만 구조를 직접 짜시지 않으면 저희의 code clone detector에 걸릴 가능성이 높습니다.
