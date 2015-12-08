@@ -26,23 +26,16 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement #
+* 숙제 4, 5의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
 * 실습은 끝났습니다. 강의는 12/14, 12/16 2번 남아있습니다.
 * 숙제 3-3에서 `maze-pp`를 과제에 사용했기 때문에 점수가 0점이 나온 경우는 다시 채점해드리고 있습니다.
-* 숙제 4의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
-  + 혹시 지금까지 메일로 보낸 문의에 답변이 오지 않았거나, 과제 관련 클레임이 반영되지 않은 경우 다시 메일을 주세요.
+  + 본인의 코드를 확인하셔서 `maze-pp`를 사용하셨고 0점이 되신 분은 메일로 알려주세요.
 * Project의 [뼈대코드](homeworks/proj-skeleton)는 12/02(수) 오후 10시 40분에 업로드한 것이 안정된 버전입니다. [proj-instruction](homeworks/proj-skeleton/proj_instr.md)를 꼭 읽고 진행해주세요.
 * 11/30(월)은 휴강, 12/2(수)는 기존과 같이 실습을 진행합니다.
-* 숙제 3-2 여섯 분의 점수가 갱신되었습니다. 채점용 library에 버그가 있었습니다.
-  + 2009-11604, 2010-11162, 2011-11749, 2012-10097, 2014-16477, 2014-18935
-* 숙제 7,8의 뼈대코드가 공개되었습니다. 각각의 instr을 잘 읽고 시작해주세요.
-* 6-5 새 자가채점기 오타가 수정되었습니다. (11월 20일 정오)
-* 과제 6-1, 6-7 채점기 버그 수정 및 make 사용자를 위한 채점기용 makefile을 추가하였습니다. - (seojangho님 및 hyunmin-personal님의 기여)
 * 숙제 1, 2의 [모범답안](homeworks/)을 만들어보았습니다.
   + 채점기는 모두 통과합니다. 다만 버그가 있을 가능성도 있습니다.
   + 늦게 제출할 경우, 이 코드를 참고는 하실 수 있지만 구조를 직접 짜시지 않으면 저희의 code clone detector에 걸릴 가능성이 높습니다.
 * 수업/실습/과제 관련 질문의 경우 이 GitHub 페이지의 issues 게시판을 이용할 것입니다.
- + GitHub에 계정이 없으신 수강생은 지금 만들어두시면 앞으로 도움이 될 것입니다. 
- + 답변은 조교 또는 학생 누구든 참여하시기를 권장합니다.
 
 ## 출석 ##
 * 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
