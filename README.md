@@ -26,6 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement #
+* 원래 올라와있던 컴파일된 파서가 OCaml 4.02.3에서 컴파일되었으므로 martini에서 사용이 안되는 문제가 있었습니다. 4.02.1에서 [새로 컴파일한 파서](homeworks/proj-skeleton-with-parser/ocaml4021.tar)를 올려드립니다.
 * 숙제 4, 5의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
 * 실습은 끝났습니다. 강의는 12/14, 12/16 2번 남아있습니다.
 * 숙제 3-3에서 `maze-pp`를 과제에 사용했기 때문에 점수가 0점이 나온 경우는 다시 채점해드리고 있습니다.
