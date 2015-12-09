@@ -1,6 +1,7 @@
 # Project #
 
 ## 수정사항 ##
+- 12/09, 18:10 = 컴파일된 파서가 4.02.3 버전에서 컴파일되었기 때문에 martini에서 실행이 안 되는 문제가 있어 proj-skeleton-with-parser/ocaml4021.tar 에 4.02.1 버전에서 컴파일한 파일을 올림 
 - 12/02, 22:40 = `VOID`, `UNDEF` 값 추가, Makefile 보완. 안정된 버전.
 - 12/02, 12:38 = `set!` 삭제, 오타 (lexer.mll, `mcdr`)
 - 11/30, 10:38 = `RUNTIME_EXCEPTION` 추가
