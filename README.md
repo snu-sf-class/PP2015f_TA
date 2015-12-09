@@ -31,8 +31,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * 원래 올라와있던 컴파일된 파서가 OCaml 4.02.3에서 컴파일되었으므로 martini에서 사용이 안되는 문제가 있었습니다. 4.02.1에서 [새로 컴파일한 파서](homeworks/proj-skeleton-with-parser/ocaml4021.tar)를 올려드립니다.
   + proj.cmo, proj.cmi 등은 무시해주세요.
 * 실습은 끝났습니다. 강의는 12/14, 12/16 2번 남아있습니다.
-* 숙제 3-3에서 `maze-pp`를 과제에 사용했기 때문에 점수가 0점이 나온 경우는 다시 채점해드리고 있습니다.
-  + 본인의 코드를 확인하셔서 `maze-pp`를 사용하셨고 0점이 되신 분은 메일로 알려주세요.
+* 숙제 3-3의 `maze-pp` 관련 재채점이 완료되었습니다. 2014-10093 학생의 점수가 올랐습니다.
 * Project의 [뼈대코드](homeworks/proj-skeleton)는 12/02(수) 오후 10시 40분에 업로드한 것이 안정된 버전입니다. [proj-instruction](homeworks/proj-skeleton/proj_instr.md)를 꼭 읽고 진행해주세요.
 * 11/30(월)은 휴강, 12/2(수)는 기존과 같이 실습을 진행합니다.
 * 숙제 1, 2의 [모범답안](homeworks/)을 만들어보았습니다.
