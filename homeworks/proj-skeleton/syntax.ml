@@ -64,7 +64,7 @@ let rec exp_to_string (exp:exp_t): string =
   | ADD (e1, e2) -> "(+ "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
   | SUB (e1, e2) -> "(- "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
   | MUL (e1, e2) -> "(* "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
-  | EQ (e1, e2) -> "(- "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
+  | EQ (e1, e2) -> "(= "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
   | LT (e1, e2) -> "(< "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
   | GT (e1, e2) -> "(> "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
   | MCONS (e1, e2) -> "(mcons "^(exp_to_string e1)^" "^(exp_to_string e2)^")"
