@@ -26,6 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement #
+* 과제 7번 채점에 쓰인 [sum.rkt](homeworks/hw7-sum)을 확인하실 수 있습니다.
 * 숙제 1~7의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
 * 7일 이상 늦은 제출의 경우 채점은 학기 말에 일괄적으로 한 번 시행합니다.
 * 5-5 점수가 약간 수정되었습니다.
