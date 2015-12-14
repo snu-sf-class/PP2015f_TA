@@ -26,10 +26,10 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement #
+* 숙제 1~7의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
 * 7일 이상 늦은 제출의 경우 채점은 학기 말에 일괄적으로 한 번 시행합니다.
 * 5-5 점수가 약간 수정되었습니다.
 * 늦은 제출의 기한을 늦췄습니다. (12/18 금 자정)
-* 숙제 4, 5, 6의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
 * 원래 올라와있던 컴파일된 파서가 OCaml 4.02.3에서 컴파일되었으므로 martini에서 사용이 안되는 문제가 있었습니다. 4.02.1에서 [새로 컴파일한 파서](homeworks/proj-skeleton-with-parser/ocaml4021.tar)를 올려드립니다.
   + proj.cmo, proj.cmi 등은 무시해주세요.
 * 실습은 끝났습니다. 강의는 12/14, 12/16 2번 남아있습니다.
