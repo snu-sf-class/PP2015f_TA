@@ -26,6 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement #
+* 현재 [제출된 프로젝트 파일](proj_submit.md)의 목록입니다.
 * 출석 항목을 반드시 확인하시고, 프로젝트 종료일까지 출석 입력을 완료해주시기 바랍니다.
 * 숙제 7의 채점을 조금 더 관대하게 하였습니다. 몇몇 분들의 점수가 0점에서 4점으로 올랐습니다.
 * 늦은 제출의 기한을 늦췄습니다. (12/21 월 자정)
