@@ -26,6 +26,7 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement #
+* 프로젝트 1번 채점이 수정되었습니다. (12/24 오후 2시)
 * 모든 과제의 채점이 완료되었습니다. [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)에서 확인하시고 문제가 있는 경우에는 알려주세요.
 * 클론 (유사 코드) 검사 결과는 당사자에게 메일로 연락드렸습니다.
 * 출석 관련해서 아직까지 해결 안 된 일이 있다면 빨리 결론을 지어주시지 않으면 그 전에 성적처리가 마감될 수 있습니다.
