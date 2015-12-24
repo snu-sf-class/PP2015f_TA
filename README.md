@@ -26,22 +26,9 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement #
-* 프로젝트를 아직 못 내신 분들의 과제는 오늘까지만 받겠습니다. 제출 사이트에 제출함을 열었습니다. (물론 감점이 있습니다.)
-* 현재 [제출된 프로젝트 파일](proj_submit.md)의 목록입니다.
-* 출석 항목을 반드시 확인하시고, 프로젝트 종료일까지 출석 입력을 완료해주시기 바랍니다.
-* 숙제 7의 채점을 조금 더 관대하게 하였습니다. 몇몇 분들의 점수가 0점에서 4점으로 올랐습니다.
-* 늦은 제출의 기한을 늦췄습니다. (12/21 월 자정)
-* 교수님께서 수업시간에 말씀하신 대로, 수요일 강의는 없습니다. 강의는 모두 종료되었습니다.
-* 과제 7번 채점에 쓰인 [sum.rkt](homeworks/hw7-sum)을 확인하실 수 있습니다.
-* 숙제 1~7의 결과를 [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)서 확인하세요.
-* 7일 이상 늦은 제출의 경우 채점은 학기 말에 일괄적으로 한 번 시행합니다.
-* 원래 올라와있던 컴파일된 파서가 OCaml 4.02.3에서 컴파일되었으므로 martini에서 사용이 안되는 문제가 있었습니다. 4.02.1에서 [새로 컴파일한 파서](homeworks/proj-skeleton-with-parser/ocaml4021.tar)를 올려드립니다.
-  + proj.cmo, proj.cmi 등은 무시해주세요.
-* Project의 [뼈대코드](homeworks/proj-skeleton)는 12/02(수) 오후 10시 40분에 업로드한 것이 안정된 버전입니다. [proj-instruction](homeworks/proj-skeleton/proj_instr.md)를 꼭 읽고 진행해주세요.
-* 숙제 1, 2의 [모범답안](homeworks/)을 만들어보았습니다.
-  + 채점기는 모두 통과합니다. 다만 버그가 있을 가능성도 있습니다.
-  + 늦게 제출할 경우, 이 코드를 참고는 하실 수 있지만 구조를 직접 짜시지 않으면 저희의 code clone detector에 걸릴 가능성이 높습니다.
-* 수업/실습/과제 관련 질문의 경우 이 GitHub 페이지의 issues 게시판을 이용할 것입니다.
+* 모든 과제의 채점이 완료되었습니다. [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)에서 확인하시고 문제가 있는 경우에는 알려주세요.
+* 클론 (유사 코드) 검사 결과는 당사자에게 메일로 연락드렸습니다.
+* 출석 관련해서 아직까지 해결 안 된 일이 있다면 빨리 결론을 지어주시지 않으면 그 전에 성적처리가 마감될 수 있습니다.
 
 ## 출석 ##
 * 출석 체크 자료가 올라왔습니다. [이 곳](attendance/instruction.md)에서 정보를 확인하세요.
