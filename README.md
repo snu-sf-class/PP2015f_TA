@@ -26,8 +26,8 @@ TA Email: (pp2015fall at sf dot snu dot ac dot kr)
 * [Lab Materials](/lab)
 
 ## Announcement #
+* 클레임이 반영된 점수를 확인하세요. [클릭](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)
 * 프로젝트 1번 채점이 수정되었습니다. (12/24 오후 2시)
-* 모든 과제의 채점이 완료되었습니다. [여기](https://docs.google.com/spreadsheets/d/1J0w3gUf_1PQ66Gbj5EzDioLTFdnxlBIscW1CXRWG0-k/edit?usp=sharing)에서 확인하시고 문제가 있는 경우에는 알려주세요.
 * 클론 (유사 코드) 검사 결과는 당사자에게 메일로 연락드렸습니다.
 * 출석은 12/25 자정에 마감할 예정입니다. 조금 더 자세한 사항은 [이슈](https://github.com/snu-sf-class/PP2015f_TA/issues/154)를 참고해주세요.
 
